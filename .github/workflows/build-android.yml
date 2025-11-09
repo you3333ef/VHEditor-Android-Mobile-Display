@@ -40,6 +40,10 @@ jobs:
         run: |
           npm ci
 
+      - name: "patch deps"
+        run: |
+          node ./ci/patch-deps.js || echo "Patch deps completed with warnings"
+
       - name: "build jsbundle"
         run: |
           npm run bundle-rnjs

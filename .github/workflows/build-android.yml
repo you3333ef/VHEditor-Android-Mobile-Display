@@ -41,6 +41,7 @@ jobs:
         uses: android-actions/setup-android@v3
         with:
           api-level: 34
+          packages: ndk;23.2.8568313
 
       - name: "npm install"
         run: |

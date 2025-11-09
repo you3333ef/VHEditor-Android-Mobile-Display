@@ -32,21 +32,12 @@ jobs:
         env:
           DEBIAN_FRONTEND: noninteractive
 
-      - name: "Download Android NDK"
-        run: |
-          wget -q https://dl.google.com/android/repository/android-ndk-r23c-linux.zip
-          unzip -q android-ndk-r23c-linux.zip
-          echo "ndk.dir=$PWD/android-ndk-r23c" >> local.properties
-        env:
-          ANDROID_HOME: ${{ github.workspace }}
-          ANDROID_SDK_ROOT: ${{ github.workspace }}
-
-      - name: "Setup Environment"
-        run: |
-          echo "ANDROID_HOME=${{ github.workspace }}" >> $GITHUB_ENV
-          echo "ANDROID_SDK_ROOT=${{ github.workspace }}" >> $GITHUB_ENV
-          echo "NDK_HOME=${{ github.workspace }}/android-ndk-r23c" >> $GITHUB_ENV
-          export PATH=$PATH:${{ github.workspace }}/android-ndk-r23c
+      - name: "Setup Android NDK"
+        uses: android-actions/setup-android@v3
+        with:
+          ndk: '25.1.8937393'
+          api-level: 34
+          build-tools: 34.0.0
 
       - name: "npm install"
         run: |

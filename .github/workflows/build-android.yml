@@ -40,9 +40,7 @@ jobs:
       - name: "Setup Android NDK"
         uses: android-actions/setup-android@v3
         with:
-          ndk: '25.1.8937393'
           api-level: 34
-          build-tools: 34.0.0
 
       - name: "npm install"
         run: |

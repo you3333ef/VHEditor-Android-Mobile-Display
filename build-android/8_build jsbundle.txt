@@ -1,0 +1,110 @@
+﻿2025-11-09T05:22:57.5252990Z ##[group]Run npm run bundle-rnjs
+2025-11-09T05:22:57.5253291Z [36;1mnpm run bundle-rnjs[0m
+2025-11-09T05:22:57.5285953Z shell: /usr/bin/bash -e {0}
+2025-11-09T05:22:57.5286204Z env:
+2025-11-09T05:22:57.5286445Z   JAVA_HOME_17.0.17_x64: /opt/hostedtoolcache/jdk/17.0.17/x64
+2025-11-09T05:22:57.5286790Z   JAVA_HOME: /opt/hostedtoolcache/jdk/17.0.17/x64
+2025-11-09T05:22:57.5287120Z   JAVA_HOME_17_0_17_X64: /opt/hostedtoolcache/jdk/17.0.17/x64
+2025-11-09T05:22:57.5287451Z   ANDROID_HOME: /usr/local/lib/android/sdk
+2025-11-09T05:22:57.5288022Z   ANDROID_SDK_ROOT: /usr/local/lib/android/sdk
+2025-11-09T05:22:57.5288286Z ##[endgroup]
+2025-11-09T05:22:57.6358708Z 
+2025-11-09T05:22:57.6359259Z > vheditor-android-ci@2.19.0 bundle-rnjs
+2025-11-09T05:22:57.6359799Z > node ci/bundle-rnjs.js
+2025-11-09T05:22:57.6360030Z 
+2025-11-09T05:22:58.2046461Z                 Welcome to Metro v0.80.9
+2025-11-09T05:22:58.2047127Z               Fast - Scalable - Integrated
+2025-11-09T05:22:58.2047469Z 
+2025-11-09T05:22:58.2047499Z 
+2025-11-09T05:23:35.0260298Z info Writing bundle output to:, app/src/main/assets/loader.bundled.js
+2025-11-09T05:23:35.0834747Z info Done writing bundle output
+2025-11-09T05:23:36.4954332Z app/src/main/assets/loader.bundled.js:1098:16: warning: the variable "SharedArrayBuffer" was not declared in function "from"
+2025-11-09T05:23:36.4955747Z     if (typeof SharedArrayBuffer !== 'undefined' && (isInstance(value, SharedArrayBuffer) || value && isInstance(value.buffer, SharedArrayBuffer))) {
+2025-11-09T05:23:36.4956545Z                ^~~~~~~~~~~~~~~~~
+2025-11-09T05:23:36.4986916Z app/src/main/assets/loader.bundled.js:3913:18: warning: the variable "DebuggerInternal" was not declared in function "__shouldPauseOnThrow"
+2025-11-09T05:23:36.4988658Z           typeof DebuggerInternal !== 'undefined' &&
+2025-11-09T05:23:36.4989315Z                  ^~~~~~~~~~~~~~~~
+2025-11-09T05:23:36.5090733Z app/src/main/assets/loader.bundled.js:7161:31: warning: the variable "nativeFabricUIManager" was not declared in anonymous function " 195#"
+2025-11-09T05:23:36.5091666Z   var _nativeFabricUIManage = nativeFabricUIManager,
+2025-11-09T05:23:36.5092106Z                               ^~~~~~~~~~~~~~~~~~~~~
+2025-11-09T05:23:36.5098686Z app/src/main/assets/loader.bundled.js:11819:30: warning: the variable "__REACT_DEVTOOLS_GLOBAL_HOOK__" was not declared in anonymous function " 195#"
+2025-11-09T05:23:36.5099653Z   if ("undefined" !== typeof __REACT_DEVTOOLS_GLOBAL_HOOK__) {
+2025-11-09T05:23:36.5100126Z                              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2025-11-09T05:23:36.5127026Z app/src/main/assets/loader.bundled.js:14231:5: warning: the variable "setImmediate" was not declared in function "handleResolved"
+2025-11-09T05:23:36.5127979Z     setImmediate(function () {
+2025-11-09T05:23:36.5128246Z     ^~~~~~~~~~~~
+2025-11-09T05:23:36.5168744Z app/src/main/assets/loader.bundled.js:18396:12: warning: the variable "fetch" was not declared in anonymous function " 430#"
+2025-11-09T05:23:36.5169965Z     fetch: fetch,
+2025-11-09T05:23:36.5170382Z            ^~~~~
+2025-11-09T05:23:36.5171675Z app/src/main/assets/loader.bundled.js:18397:14: warning: the variable "Headers" was not declared in anonymous function " 430#"
+2025-11-09T05:23:36.5172399Z     Headers: Headers,
+2025-11-09T05:23:36.5172672Z              ^~~~~~~
+2025-11-09T05:23:36.5173557Z app/src/main/assets/loader.bundled.js:18398:14: warning: the variable "Request" was not declared in anonymous function " 430#"
+2025-11-09T05:23:36.5174727Z     Request: Request,
+2025-11-09T05:23:36.5175184Z              ^~~~~~~
+2025-11-09T05:23:36.5176363Z app/src/main/assets/loader.bundled.js:18399:15: warning: the variable "Response" was not declared in anonymous function " 430#"
+2025-11-09T05:23:36.5177075Z     Response: Response
+2025-11-09T05:23:36.5177346Z               ^~~~~~~~
+2025-11-09T05:23:36.5178463Z app/src/main/assets/loader.bundled.js:18549:24: warning: the variable "FileReader" was not declared in function "readBlobAsArrayBuffer"
+2025-11-09T05:23:36.5179365Z       var reader = new FileReader();
+2025-11-09T05:23:36.5179967Z                        ^~~~~~~~~~
+2025-11-09T05:23:36.5180769Z app/src/main/assets/loader.bundled.js:18596:36: warning: the variable "Blob" was not declared in anonymous function " 441#"
+2025-11-09T05:23:36.5181632Z         } else if (support.blob && Blob.prototype.isPrototypeOf(body)) {
+2025-11-09T05:23:36.5182103Z                                    ^~~~
+2025-11-09T05:23:36.5182943Z app/src/main/assets/loader.bundled.js:18598:40: warning: the variable "FormData" was not declared in anonymous function " 441#"
+2025-11-09T05:23:36.5183864Z         } else if (support.formData && FormData.prototype.isPrototypeOf(body)) {
+2025-11-09T05:23:36.5184380Z                                        ^~~~~~~~
+2025-11-09T05:23:36.5185195Z app/src/main/assets/loader.bundled.js:18600:44: warning: the variable "URLSearchParams" was not declared in anonymous function " 441#"
+2025-11-09T05:23:36.5185960Z         } else if (support.searchParams && URLSearchParams.prototype.isPrototypeOf(body)) {
+2025-11-09T05:23:36.5186424Z                                            ^~~~~~~~~~~~~~~
+2025-11-09T05:23:36.5187085Z app/src/main/assets/loader.bundled.js:18838:23: warning: the variable "XMLHttpRequest" was not declared in anonymous function " 450#"
+2025-11-09T05:23:36.5187889Z         var xhr = new XMLHttpRequest();
+2025-11-09T05:23:36.5188173Z                       ^~~~~~~~~~~~~~
+2025-11-09T05:23:36.5188769Z app/src/main/assets/loader.bundled.js:18408:76: warning: the variable "self" was not declared in anonymous function " 433#"
+2025-11-09T05:23:36.5189669Z     var global = typeof globalThis !== 'undefined' && globalThis || typeof self !== 'undefined' && self || typeof global !== 'undefined' && global;
+2025-11-09T05:23:36.5190261Z                                                                            ^~~~
+2025-11-09T05:23:36.5282414Z app/src/main/assets/loader.bundled.js:28271:27: warning: the variable "performance" was not declared in anonymous function " 708#"
+2025-11-09T05:23:36.5283793Z   if ("object" === typeof performance && "function" === typeof performance.now) {
+2025-11-09T05:23:36.5284275Z                           ^~~~~~~~~~~
+2025-11-09T05:23:36.5285078Z app/src/main/assets/loader.bundled.js:28294:26: warning: the variable "navigator" was not declared in anonymous function " 708#"
+2025-11-09T05:23:36.5286762Z   "undefined" !== typeof navigator && undefined !== navigator.scheduling && undefined !== navigator.scheduling.isInputPending ? navigator.scheduling.isInputPending.bind(navigator.scheduling) : null;
+2025-11-09T05:23:36.5288036Z                          ^~~~~~~~~
+2025-11-09T05:23:36.5288850Z app/src/main/assets/loader.bundled.js:28404:37: warning: the variable "MessageChannel" was not declared in anonymous function " 708#"
+2025-11-09T05:23:36.5289617Z   };else if ("undefined" !== typeof MessageChannel) {
+2025-11-09T05:23:36.5290022Z                                     ^~~~~~~~~~~~~~
+2025-11-09T05:23:36.5290891Z app/src/main/assets/loader.bundled.js:28419:34: warning: the variable "nativeRuntimeScheduler" was not declared in anonymous function " 708#"
+2025-11-09T05:23:36.5292037Z   var Y = "undefined" !== typeof nativeRuntimeScheduler ? nativeRuntimeScheduler.unstable_UserBlockingPriority : 2,
+2025-11-09T05:23:36.5292723Z                                  ^~~~~~~~~~~~~~~~~~~~~~
+2025-11-09T05:23:36.5405949Z app/src/main/assets/loader.bundled.js:37517:34: warning: the variable "requestAnimationFrame" was not declared in function "start 9#"
+2025-11-09T05:23:36.5407188Z           this._animationFrame = requestAnimationFrame(this.onUpdate.bind(this));
+2025-11-09T05:23:36.5408114Z                                  ^~~~~~~~~~~~~~~~~~~~~
+2025-11-09T05:23:36.5668911Z app/src/main/assets/loader.bundled.js:58730:23: warning: Direct call to eval(), but lexical scope is not supported.
+2025-11-09T05:23:36.5672626Z         var creator = eval("(function(gmodule, global){var module=Object.assign({},gmodule,{exports:{}});var __filename=module.filename=" + JSON.stringify(path) + ';' + 'var __dirname=__filename.slice(0,__filename.lastIndexOf("/"));' + 'var require=function(path){return gmodule.require(path, __dirname);};' + 'var async_import=function(path){return gmodule.import(path, __dirname);};' + 'var exports=module.exports;' + '(function(){"use strict";\n' + transformed_content.code + ';\n}.call(exports));' + 'return module.exports;' + '});');
+2025-11-09T05:23:36.5676274Z                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2025-11-09T05:23:36.5740529Z app/src/main/assets/loader.bundled.js:64114:25: warning: the variable "Atomics" was not declared in anonymous function " 1557#"
+2025-11-09T05:23:36.5741633Z     '%Atomics%': typeof Atomics === 'undefined' ? undefined : Atomics,
+2025-11-09T05:23:36.5742163Z                         ^~~~~~~
+2025-11-09T05:23:36.5743239Z app/src/main/assets/loader.bundled.js:64131:38: warning: the variable "FinalizationRegistry" was not declared in anonymous function " 1557#"
+2025-11-09T05:23:36.5744604Z     '%FinalizationRegistry%': typeof FinalizationRegistry === 'undefined' ? undefined : FinalizationRegistry,
+2025-11-09T05:23:36.5745303Z                                      ^~~~~~~~~~~~~~~~~~~~
+2025-11-09T05:23:36.5746167Z app/src/main/assets/loader.bundled.js:64170:25: warning: the variable "WeakRef" was not declared in anonymous function " 1557#"
+2025-11-09T05:23:36.5747031Z     '%WeakRef%': typeof WeakRef === 'undefined' ? undefined : WeakRef,
+2025-11-09T05:23:36.5747470Z                         ^~~~~~~
+2025-11-09T05:23:36.6405028Z app/src/main/assets/loader.bundled.js:117866:22: warning: the variable "hasOwnProperty" was not declared in function "copyApiObject"
+2025-11-09T05:23:36.6406548Z       if (proto && (!hasOwnProperty.call(proto, "version") || !hasOwnProperty.call(proto, "transform") || !hasOwnProperty.call(proto, "template") || !hasOwnProperty.call(proto, "types"))) {
+2025-11-09T05:23:36.6408055Z                      ^~~~~~~~~~~~~~
+2025-11-09T05:23:36.6890174Z app/src/main/assets/loader.bundled.js:157377:21: warning: the variable "TextDecoder" was not declared in anonymous function " 3429#"
+2025-11-09T05:23:36.6891562Z     var td = typeof TextDecoder !== 'undefined' ? /* #__PURE__ */new TextDecoder() : typeof Buffer !== 'undefined' ? {
+2025-11-09T05:23:36.6892266Z                     ^~~~~~~~~~~
+2025-11-09T05:23:36.7209943Z app/src/main/assets/loader.bundled.js:183497:16: warning: the variable "value" was not declared in function "decodeBase64WithNewBuffer"
+2025-11-09T05:23:36.7211051Z     if (typeof value === 'number') {
+2025-11-09T05:23:36.7211492Z                ^~~~~
+2025-11-09T05:23:36.7212567Z app/src/main/assets/loader.bundled.js:183503:38: warning: the variable "atob" was not declared in function "decodeBase64WithAtob"
+2025-11-09T05:23:36.7213692Z     return decodeURIComponent(escape(atob(base64)));
+2025-11-09T05:23:36.7214284Z                                      ^~~~
+2025-11-09T05:23:36.7215452Z app/src/main/assets/loader.bundled.js:183566:12: warning: the variable "btoa" was not declared in function "encodeBase64WithBtoa"
+2025-11-09T05:23:36.7216514Z     return btoa(unescape(encodeURIComponent(json)));
+2025-11-09T05:23:36.7216994Z            ^~~~
+2025-11-09T05:23:36.7329153Z app/src/main/assets/loader.bundled.js:191921:48: warning: the variable "characterClassItem" was not declared in function "buildHandler"
+2025-11-09T05:23:36.7330508Z         throw new Error(`Unknown set action: ${characterClassItem.kind}`);
+2025-11-09T05:23:36.7331225Z                                                ^~~~~~~~~~~~~~~~~~

@@ -1,0 +1,62 @@
+﻿2025-11-09T05:22:37.2004028Z ##[group]Run npm ci
+2025-11-09T05:22:37.2004273Z [36;1mnpm ci[0m
+2025-11-09T05:22:37.2036790Z shell: /usr/bin/bash -e {0}
+2025-11-09T05:22:37.2037020Z env:
+2025-11-09T05:22:37.2037251Z   JAVA_HOME_17.0.17_x64: /opt/hostedtoolcache/jdk/17.0.17/x64
+2025-11-09T05:22:37.2037824Z   JAVA_HOME: /opt/hostedtoolcache/jdk/17.0.17/x64
+2025-11-09T05:22:37.2038157Z   JAVA_HOME_17_0_17_X64: /opt/hostedtoolcache/jdk/17.0.17/x64
+2025-11-09T05:22:37.2038648Z   ANDROID_HOME: /usr/local/lib/android/sdk
+2025-11-09T05:22:37.2038912Z   ANDROID_SDK_ROOT: /usr/local/lib/android/sdk
+2025-11-09T05:22:37.2039161Z ##[endgroup]
+2025-11-09T05:22:44.3454364Z npm warn deprecated querystring@0.2.1: The querystring API is considered Legacy. new code should use the URLSearchParams API instead.
+2025-11-09T05:22:47.4767097Z npm warn deprecated @babel/plugin-proposal-optional-chaining@7.21.0: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-optional-chaining instead.
+2025-11-09T05:22:47.5065410Z npm warn deprecated @babel/plugin-proposal-optional-catch-binding@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-optional-catch-binding instead.
+2025-11-09T05:22:47.5177889Z npm warn deprecated @babel/plugin-proposal-logical-assignment-operators@7.20.7: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-logical-assignment-operators instead.
+2025-11-09T05:22:47.5241094Z npm warn deprecated @babel/plugin-proposal-numeric-separator@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-numeric-separator instead.
+2025-11-09T05:22:47.5243875Z npm warn deprecated @babel/plugin-proposal-nullish-coalescing-operator@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-nullish-coalescing-operator instead.
+2025-11-09T05:22:47.5247029Z npm warn deprecated @babel/plugin-proposal-object-rest-spread@7.20.7: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-object-rest-spread instead.
+2025-11-09T05:22:47.5376591Z npm warn deprecated @babel/plugin-proposal-async-generator-functions@7.20.7: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-async-generator-functions instead.
+2025-11-09T05:22:47.5379679Z npm warn deprecated @babel/plugin-proposal-class-properties@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-class-properties instead.
+2025-11-09T05:22:47.8118341Z npm warn deprecated rimraf@2.6.3: Rimraf versions prior to v4 are no longer supported
+2025-11-09T05:22:47.8119252Z npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+2025-11-09T05:22:47.9786318Z npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+2025-11-09T05:22:48.3370907Z npm warn deprecated rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported
+2025-11-09T05:22:48.3496131Z npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+2025-11-09T05:22:48.4030124Z npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+2025-11-09T05:22:48.4224829Z npm warn deprecated rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported
+2025-11-09T05:22:48.6252311Z npm warn deprecated object-keys@0.2.0: Please update to the latest object-keys
+2025-11-09T05:22:49.0592332Z npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+2025-11-09T05:22:49.1589180Z npm warn deprecated rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported
+2025-11-09T05:22:49.1710125Z npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+2025-11-09T05:22:49.2382542Z npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+2025-11-09T05:22:54.3944564Z 
+2025-11-09T05:22:54.3945173Z > vheditor-android-ci@2.19.0 postinstall
+2025-11-09T05:22:54.3945804Z > node ci/post-install.js
+2025-11-09T05:22:54.3946441Z 
+2025-11-09T05:22:57.4202017Z Jetifier is deprecated. Future versions of react-native CLI may not run it by default.
+2025-11-09T05:22:57.4232118Z hack node_modules/@react-native/metro-babel-transformer/src/index.js
+2025-11-09T05:22:57.4240032Z hack node_modules/react-native-os/android/build.gradle
+2025-11-09T05:22:57.4241176Z hack node_modules/react-native-tcp/android/build.gradle
+2025-11-09T05:22:57.4242829Z hack node_modules/react-native-udp/android/build.gradle
+2025-11-09T05:22:57.4248207Z hack node_modules/errno/custom.js
+2025-11-09T05:22:57.4251066Z hack node_modules/asyncstorage-down/asyncstorage-core.js
+2025-11-09T05:22:57.4253917Z hack node_modules/@react-native/gradle-plugin/src/main/kotlin/com/facebook/react/TaskConfiguration.kt
+2025-11-09T05:22:57.4256878Z hack node_modules/react-native-os/android/src/main/java/com/peel/reactos/RNOS.java
+2025-11-09T05:22:57.4472821Z 
+2025-11-09T05:22:57.4473282Z added 1347 packages, and audited 1348 packages in 18s
+2025-11-09T05:22:57.4475411Z 
+2025-11-09T05:22:57.4476114Z 133 packages are looking for funding
+2025-11-09T05:22:57.4476506Z   run `npm fund` for details
+2025-11-09T05:22:57.4883359Z 
+2025-11-09T05:22:57.4885834Z 31 vulnerabilities (12 low, 4 moderate, 8 high, 7 critical)
+2025-11-09T05:22:57.4886204Z 
+2025-11-09T05:22:57.4886474Z To address issues that do not require attention, run:
+2025-11-09T05:22:57.4886860Z   npm audit fix
+2025-11-09T05:22:57.4887011Z 
+2025-11-09T05:22:57.4887323Z To address all issues possible (including breaking changes), run:
+2025-11-09T05:22:57.4888022Z   npm audit fix --force
+2025-11-09T05:22:57.4888192Z 
+2025-11-09T05:22:57.4888414Z Some issues need review, and may require choosing
+2025-11-09T05:22:57.4888836Z a different dependency.
+2025-11-09T05:22:57.4888996Z 
+2025-11-09T05:22:57.4889147Z Run `npm audit` for details.

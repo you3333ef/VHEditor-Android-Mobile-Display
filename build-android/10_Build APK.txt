@@ -1,0 +1,790 @@
+﻿2025-11-09T05:23:42.0519472Z ##[group]Run [[ -z "1.0.8" ]] && exit 13
+2025-11-09T05:23:42.0519788Z [36;1m[[ -z "1.0.8" ]] && exit 13[0m
+2025-11-09T05:23:42.0520115Z [36;1mCI_VERSION_NAME="1.0.8" ./gradlew assembleRelease --no-daemon[0m
+2025-11-09T05:23:42.0550963Z shell: /usr/bin/bash -e {0}
+2025-11-09T05:23:42.0551195Z env:
+2025-11-09T05:23:42.0551427Z   JAVA_HOME_17.0.17_x64: /opt/hostedtoolcache/jdk/17.0.17/x64
+2025-11-09T05:23:42.0551776Z   JAVA_HOME: /opt/hostedtoolcache/jdk/17.0.17/x64
+2025-11-09T05:23:42.0552098Z   JAVA_HOME_17_0_17_X64: /opt/hostedtoolcache/jdk/17.0.17/x64
+2025-11-09T05:23:42.0552407Z   ANDROID_HOME: /usr/local/lib/android/sdk
+2025-11-09T05:23:42.0552678Z   ANDROID_SDK_ROOT: /usr/local/lib/android/sdk
+2025-11-09T05:23:42.0552921Z ##[endgroup]
+2025-11-09T05:23:42.1419264Z Downloading https://services.gradle.org/distributions/gradle-8.6-bin.zip
+2025-11-09T05:23:43.8410631Z ..............................................................................................................................
+2025-11-09T05:23:43.8413535Z Unzipping /home/runner/.gradle/wrapper/dists/gradle-8.6-bin/afr5mpiioh2wthjmwnkmdsd5w/gradle-8.6-bin.zip to /home/runner/.gradle/wrapper/dists/gradle-8.6-bin/afr5mpiioh2wthjmwnkmdsd5w
+2025-11-09T05:23:44.5225663Z Set executable permissions for: /home/runner/.gradle/wrapper/dists/gradle-8.6-bin/afr5mpiioh2wthjmwnkmdsd5w/gradle-8.6/bin/gradle
+2025-11-09T05:23:44.8611834Z 
+2025-11-09T05:23:44.8614095Z Welcome to Gradle 8.6!
+2025-11-09T05:23:44.8617866Z 
+2025-11-09T05:23:44.8618204Z Here are the highlights of this release:
+2025-11-09T05:23:44.8618934Z  - Configurable encryption key for configuration cache
+2025-11-09T05:23:44.8619549Z  - Build init improvements
+2025-11-09T05:23:44.8620044Z  - Build authoring improvements
+2025-11-09T05:23:44.8620333Z 
+2025-11-09T05:23:44.8620797Z For more details see https://docs.gradle.org/8.6/release-notes.html
+2025-11-09T05:23:44.8621269Z 
+2025-11-09T05:23:44.9591504Z To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/8.6/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+2025-11-09T05:23:45.8595203Z Daemon will be stopped at the end of the build 
+2025-11-09T05:24:57.0601840Z > Task :gradle-plugin:checkKotlinGradlePluginConfigurationErrors
+2025-11-09T05:25:03.9582463Z > Task :gradle-plugin:pluginDescriptors
+2025-11-09T05:25:04.0582428Z > Task :gradle-plugin:processResources
+2025-11-09T05:25:15.7583359Z > Task :gradle-plugin:compileKotlin
+2025-11-09T05:25:15.7585393Z > Task :gradle-plugin:compileJava NO-SOURCE
+2025-11-09T05:25:15.7585955Z > Task :gradle-plugin:classes
+2025-11-09T05:25:15.8594209Z > Task :gradle-plugin:jar
+2025-11-09T05:25:22.7590314Z 
+2025-11-09T05:25:22.7592310Z > Configure project :
+2025-11-09T05:25:24.8591210Z REACT_NATIVE_VERSION=0.74.3
+2025-11-09T05:25:24.8591795Z > Configure project :app
+2025-11-09T05:25:24.8592542Z WARNING: DSL element 'dexOptions' is obsolete and should be removed.
+2025-11-09T05:25:24.8593399Z It will be removed in version 8.0 of the Android Gradle plugin.
+2025-11-09T05:25:24.8594393Z Using it has no effect, and the AndroidGradle plugin optimizes dexing automatically.
+2025-11-09T05:25:26.6590456Z This version only understands SDK XML versions up to 3 but an SDK XML file of version 4 was encountered. This can happen if you use versions of Android Studio and the command-line tools that were released at different times.
+2025-11-09T05:25:27.8583432Z Checking the license for package NDK (Side by side) 23.2.8568313 in /usr/local/lib/android/sdk/licenses
+2025-11-09T05:25:27.8589191Z License for package NDK (Side by side) 23.2.8568313 accepted.
+2025-11-09T05:25:27.8593354Z Preparing "Install NDK (Side by side) 23.2.8568313 v.23.2.8568313".
+2025-11-09T05:25:41.9610267Z "Install NDK (Side by side) 23.2.8568313 v.23.2.8568313" ready.
+2025-11-09T05:25:41.9611778Z Installing NDK (Side by side) 23.2.8568313 in /usr/local/lib/android/sdk/ndk/23.2.8568313
+2025-11-09T05:25:41.9613087Z "Install NDK (Side by side) 23.2.8568313 v.23.2.8568313" complete.
+2025-11-09T05:25:42.0582300Z "Install NDK (Side by side) 23.2.8568313 v.23.2.8568313" finished.
+2025-11-09T05:26:00.9582109Z 
+2025-11-09T05:26:00.9585148Z > Configure project :termux-shared
+2025-11-09T05:26:00.9591501Z Checking the license for package NDK (Side by side) 25.1.8937393 in /usr/local/lib/android/sdk/licenses
+2025-11-09T05:26:00.9594421Z License for package NDK (Side by side) 25.1.8937393 accepted.
+2025-11-09T05:26:00.9596738Z Preparing "Install NDK (Side by side) 25.1.8937393 v.25.1.8937393".
+2025-11-09T05:26:09.6582891Z "Install NDK (Side by side) 25.1.8937393 v.25.1.8937393" ready.
+2025-11-09T05:26:09.6583907Z Installing NDK (Side by side) 25.1.8937393 in /usr/local/lib/android/sdk/ndk/25.1.8937393
+2025-11-09T05:26:09.6584816Z "Install NDK (Side by side) 25.1.8937393 v.25.1.8937393" complete.
+2025-11-09T05:26:09.6585557Z "Install NDK (Side by side) 25.1.8937393 v.25.1.8937393" finished.
+2025-11-09T05:26:10.4582189Z Checking the license for package Android SDK Platform 33 in /usr/local/lib/android/sdk/licenses
+2025-11-09T05:26:10.4583243Z License for package Android SDK Platform 33 accepted.
+2025-11-09T05:26:10.4583883Z Preparing "Install Android SDK Platform 33 (revision 3)".
+2025-11-09T05:26:13.0582196Z "Install Android SDK Platform 33 (revision 3)" ready.
+2025-11-09T05:26:13.0583267Z Installing Android SDK Platform 33 in /usr/local/lib/android/sdk/platforms/android-33
+2025-11-09T05:26:13.0584695Z "Install Android SDK Platform 33 (revision 3)" complete.
+2025-11-09T05:26:13.0585444Z "Install Android SDK Platform 33 (revision 3)" finished.
+2025-11-09T05:26:43.7593244Z WARNING: The specified Android SDK Build Tools version (33.0.0) is ignored, as it is below the minimum supported version (34.0.0) for Android Gradle Plugin 8.2.1.
+2025-11-09T05:26:43.7595252Z Android SDK Build Tools 34.0.0 will be used.
+2025-11-09T05:26:43.7597309Z To suppress this warning, remove "buildToolsVersion '33.0.0'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+2025-11-09T05:26:43.7600199Z WARNING: The specified Android SDK Build Tools version (33.0.0) is ignored, as it is below the minimum supported version (34.0.0) for Android Gradle Plugin 8.2.1.
+2025-11-09T05:26:43.7601660Z Android SDK Build Tools 34.0.0 will be used.
+2025-11-09T05:26:43.7603986Z To suppress this warning, remove "buildToolsVersion '33.0.0'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+2025-11-09T05:26:49.0590346Z 
+2025-11-09T05:26:49.0591362Z > Task :react-native-os:preBuild UP-TO-DATE
+2025-11-09T05:26:49.0592352Z > Task :react-native-os:preReleaseBuild UP-TO-DATE
+2025-11-09T05:26:49.0593326Z > Task :react-native-async-storage_async-storage:preBuild UP-TO-DATE
+2025-11-09T05:26:49.0594863Z > Task :react-native-async-storage_async-storage:preReleaseBuild UP-TO-DATE
+2025-11-09T05:26:49.0628133Z > Task :react-native-fs:preBuild UP-TO-DATE
+2025-11-09T05:26:49.0630933Z > Task :react-native-fs:preReleaseBuild UP-TO-DATE
+2025-11-09T05:26:49.1590962Z > Task :react-native-async-storage_async-storage:generateReleaseResValues
+2025-11-09T05:26:49.1597202Z > Task :react-native-async-storage_async-storage:generateReleaseResources
+2025-11-09T05:26:49.1597868Z > Task :react-native-fs:generateReleaseResValues
+2025-11-09T05:26:49.1599259Z > Task :react-native-os:generateReleaseResValues
+2025-11-09T05:26:49.1599643Z > Task :react-native-os:generateReleaseResources
+2025-11-09T05:26:49.1601156Z > Task :react-native-fs:generateReleaseResources
+2025-11-09T05:26:49.2615332Z > Task :react-native-async-storage_async-storage:packageReleaseResources
+2025-11-09T05:26:49.2662676Z > Task :react-native-fs:packageReleaseResources
+2025-11-09T05:26:49.2663595Z > Task :react-native-tcp:preBuild UP-TO-DATE
+2025-11-09T05:26:49.2664453Z > Task :react-native-tcp:preReleaseBuild UP-TO-DATE
+2025-11-09T05:26:49.2665294Z > Task :react-native-os:packageReleaseResources
+2025-11-09T05:26:49.2666118Z > Task :react-native-randombytes:preBuild UP-TO-DATE
+2025-11-09T05:26:49.2667364Z > Task :react-native-randombytes:preReleaseBuild UP-TO-DATE
+2025-11-09T05:26:49.2668481Z > Task :react-native-udp:preBuild UP-TO-DATE
+2025-11-09T05:26:49.2669237Z > Task :react-native-udp:preReleaseBuild UP-TO-DATE
+2025-11-09T05:26:49.2669999Z > Task :react-native-tcp:generateReleaseResValues
+2025-11-09T05:26:49.2670759Z > Task :react-native-tcp:generateReleaseResources
+2025-11-09T05:26:49.2671573Z > Task :react-native-randombytes:generateReleaseResValues
+2025-11-09T05:26:49.2672457Z > Task :react-native-randombytes:generateReleaseResources
+2025-11-09T05:26:49.2673250Z > Task :react-native-udp:generateReleaseResValues
+2025-11-09T05:26:49.2674001Z > Task :react-native-udp:generateReleaseResources
+2025-11-09T05:26:49.2684860Z > Task :react-native-randombytes:packageReleaseResources
+2025-11-09T05:26:49.2686038Z > Task :terminal-emulator:preBuild UP-TO-DATE
+2025-11-09T05:26:49.2686845Z > Task :terminal-emulator:preReleaseBuild UP-TO-DATE
+2025-11-09T05:26:49.2687500Z > Task :react-native-udp:packageReleaseResources
+2025-11-09T05:26:49.2688396Z > Task :terminal-emulator:generateReleaseResValues
+2025-11-09T05:26:49.2688988Z > Task :terminal-view:preBuild UP-TO-DATE
+2025-11-09T05:26:49.2689582Z > Task :terminal-view:preReleaseBuild UP-TO-DATE
+2025-11-09T05:26:49.2690307Z > Task :terminal-emulator:generateReleaseResources
+2025-11-09T05:26:49.3635745Z > Task :react-native-tcp:packageReleaseResources
+2025-11-09T05:26:49.3662523Z > Task :termux-shared:preBuild UP-TO-DATE
+2025-11-09T05:26:49.3691127Z > Task :termux-shared:preReleaseBuild UP-TO-DATE
+2025-11-09T05:26:49.3692438Z > Task :terminal-view:generateReleaseResValues
+2025-11-09T05:26:49.3692973Z > Task :terminal-view:generateReleaseResources
+2025-11-09T05:26:49.3693476Z > Task :termux-shared:generateReleaseResValues
+2025-11-09T05:26:49.3693975Z > Task :termux-shared:generateReleaseResources
+2025-11-09T05:26:49.3694453Z > Task :app:buildKotlinToolingMetadata
+2025-11-09T05:26:49.3695003Z > Task :app:checkKotlinGradlePluginConfigurationErrors
+2025-11-09T05:26:49.3695641Z > Task :app:generateCodegenSchemaFromJavaScript SKIPPED
+2025-11-09T05:26:49.3696234Z > Task :app:generateCodegenArtifactsFromSchema SKIPPED
+2025-11-09T05:26:49.3696783Z > Task :terminal-emulator:packageReleaseResources
+2025-11-09T05:26:49.3697253Z > Task :app:generatePackageList
+2025-11-09T05:26:49.3697818Z > Task :app:preBuild
+2025-11-09T05:26:49.3698175Z > Task :app:preReleaseBuild
+2025-11-09T05:26:49.4582873Z > Task :terminal-view:packageReleaseResources
+2025-11-09T05:26:49.4588210Z > Task :termux-shared:packageReleaseResources
+2025-11-09T05:26:49.9582263Z > Task :react-native-os:parseReleaseLocalResources
+2025-11-09T05:26:49.9586910Z > Task :react-native-async-storage_async-storage:parseReleaseLocalResources
+2025-11-09T05:26:50.0582764Z 
+2025-11-09T05:26:50.0602005Z > Task :react-native-async-storage_async-storage:processReleaseManifest
+2025-11-09T05:26:50.0604917Z package="com.reactnativecommunity.asyncstorage" found in source AndroidManifest.xml: /home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/node_modules/@react-native-async-storage/async-storage/android/src/main/AndroidManifest.xml.
+2025-11-09T05:26:50.0609237Z Setting the namespace via the package attribute in the source AndroidManifest.xml is no longer supported, and the value is ignored.
+2025-11-09T05:26:50.0615237Z Recommendation: remove package="com.reactnativecommunity.asyncstorage" from the source AndroidManifest.xml: /home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/node_modules/@react-native-async-storage/async-storage/android/src/main/AndroidManifest.xml.
+2025-11-09T05:26:50.0617146Z 
+2025-11-09T05:26:50.0617785Z > Task :react-native-async-storage_async-storage:generateReleaseRFile
+2025-11-09T05:26:52.0609973Z 
+2025-11-09T05:26:52.0610709Z > Task :react-native-os:processReleaseManifest
+2025-11-09T05:26:52.0612800Z package="com.peel.react.rnos" found in source AndroidManifest.xml: /home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/node_modules/react-native-os/android/src/main/AndroidManifest.xml.
+2025-11-09T05:26:52.0619797Z Setting the namespace via the package attribute in the source AndroidManifest.xml is no longer supported, and the value is ignored.
+2025-11-09T05:26:52.0622737Z Recommendation: remove package="com.peel.react.rnos" from the source AndroidManifest.xml: /home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/node_modules/react-native-os/android/src/main/AndroidManifest.xml.
+2025-11-09T05:26:52.0624770Z 
+2025-11-09T05:26:52.0630321Z > Task :react-native-fs:parseReleaseLocalResources
+2025-11-09T05:26:52.0631068Z 
+2025-11-09T05:26:52.0632002Z > Task :react-native-fs:processReleaseManifest
+2025-11-09T05:26:52.0634899Z package="com.rnfs" found in source AndroidManifest.xml: /home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/node_modules/react-native-fs/android/src/main/AndroidManifest.xml.
+2025-11-09T05:26:52.0638704Z Setting the namespace via the package attribute in the source AndroidManifest.xml is no longer supported, and the value is ignored.
+2025-11-09T05:26:52.0641310Z Recommendation: remove package="com.rnfs" from the source AndroidManifest.xml: /home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/node_modules/react-native-fs/android/src/main/AndroidManifest.xml.
+2025-11-09T05:26:52.1586213Z 
+2025-11-09T05:26:52.1586950Z > Task :react-native-randombytes:parseReleaseLocalResources
+2025-11-09T05:26:52.1587957Z > Task :react-native-os:generateReleaseRFile
+2025-11-09T05:26:52.1588592Z > Task :react-native-fs:generateReleaseRFile
+2025-11-09T05:26:52.1588937Z 
+2025-11-09T05:26:52.1589327Z > Task :react-native-randombytes:processReleaseManifest
+2025-11-09T05:26:52.1591485Z package="com.bitgo.randombytes" found in source AndroidManifest.xml: /home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/node_modules/react-native-randombytes/android/src/main/AndroidManifest.xml.
+2025-11-09T05:26:52.1593947Z Setting the namespace via the package attribute in the source AndroidManifest.xml is no longer supported, and the value is ignored.
+2025-11-09T05:26:52.1598805Z Recommendation: remove package="com.bitgo.randombytes" from the source AndroidManifest.xml: /home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/node_modules/react-native-randombytes/android/src/main/AndroidManifest.xml.
+2025-11-09T05:26:52.1602811Z 
+2025-11-09T05:26:52.1603184Z > Task :react-native-tcp:parseReleaseLocalResources
+2025-11-09T05:26:52.1603899Z > Task :react-native-randombytes:generateReleaseRFile
+2025-11-09T05:26:52.1604302Z 
+2025-11-09T05:26:52.1604623Z > Task :react-native-udp:processReleaseManifest
+2025-11-09T05:26:52.1606588Z package="com.tradle.react" found in source AndroidManifest.xml: /home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/node_modules/react-native-udp/android/src/main/AndroidManifest.xml.
+2025-11-09T05:26:52.1609088Z Setting the namespace via the package attribute in the source AndroidManifest.xml is no longer supported, and the value is ignored.
+2025-11-09T05:26:52.1619985Z Recommendation: remove package="com.tradle.react" from the source AndroidManifest.xml: /home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/node_modules/react-native-udp/android/src/main/AndroidManifest.xml.
+2025-11-09T05:26:52.2585103Z 
+2025-11-09T05:26:52.2598507Z > Task :react-native-tcp:processReleaseManifest
+2025-11-09T05:26:52.2602659Z package="com.peel.react" found in source AndroidManifest.xml: /home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/node_modules/react-native-tcp/android/src/main/AndroidManifest.xml.
+2025-11-09T05:26:52.2609217Z Setting the namespace via the package attribute in the source AndroidManifest.xml is no longer supported, and the value is ignored.
+2025-11-09T05:26:52.2611916Z Recommendation: remove package="com.peel.react" from the source AndroidManifest.xml: /home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/node_modules/react-native-tcp/android/src/main/AndroidManifest.xml.
+2025-11-09T05:26:52.2613796Z 
+2025-11-09T05:26:52.2614160Z > Task :terminal-emulator:parseReleaseLocalResources
+2025-11-09T05:26:52.2614868Z > Task :react-native-udp:parseReleaseLocalResources
+2025-11-09T05:26:52.3597049Z > Task :react-native-udp:generateReleaseRFile
+2025-11-09T05:26:52.3597989Z > Task :react-native-tcp:generateReleaseRFile
+2025-11-09T05:26:52.3598660Z > Task :terminal-view:parseReleaseLocalResources
+2025-11-09T05:26:52.3599026Z 
+2025-11-09T05:26:52.3599337Z > Task :terminal-emulator:processReleaseManifest
+2025-11-09T05:26:52.3601366Z package="com.termux.terminal" found in source AndroidManifest.xml: /home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/deps/termux-app/terminal-emulator/src/main/AndroidManifest.xml.
+2025-11-09T05:26:52.3603731Z Setting the namespace via the package attribute in the source AndroidManifest.xml is no longer supported, and the value is ignored.
+2025-11-09T05:26:52.3606450Z Recommendation: remove package="com.termux.terminal" from the source AndroidManifest.xml: /home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/deps/termux-app/terminal-emulator/src/main/AndroidManifest.xml.
+2025-11-09T05:26:52.4584454Z 
+2025-11-09T05:26:52.4586701Z > Task :terminal-emulator:generateReleaseRFile
+2025-11-09T05:26:52.9609366Z > Task :termux-shared:parseReleaseLocalResources
+2025-11-09T05:26:52.9611037Z > Task :react-native-async-storage_async-storage:writeReleaseAarMetadata
+2025-11-09T05:26:52.9611864Z 
+2025-11-09T05:26:52.9612418Z > Task :termux-shared:processReleaseManifest
+2025-11-09T05:26:52.9614502Z package="com.termux.shared" found in source AndroidManifest.xml: /home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/deps/termux-app/termux-shared/src/main/AndroidManifest.xml.
+2025-11-09T05:26:52.9648381Z Setting the namespace via the package attribute in the source AndroidManifest.xml is no longer supported, and the value is ignored.
+2025-11-09T05:26:52.9651030Z Recommendation: remove package="com.termux.shared" from the source AndroidManifest.xml: /home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/deps/termux-app/termux-shared/src/main/AndroidManifest.xml.
+2025-11-09T05:26:52.9652554Z 
+2025-11-09T05:26:52.9652864Z > Task :terminal-view:processReleaseManifest
+2025-11-09T05:26:52.9654730Z package="com.termux.view" found in source AndroidManifest.xml: /home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/deps/termux-app/terminal-view/src/main/AndroidManifest.xml.
+2025-11-09T05:26:52.9656912Z Setting the namespace via the package attribute in the source AndroidManifest.xml is no longer supported, and the value is ignored.
+2025-11-09T05:26:52.9659667Z Recommendation: remove package="com.termux.view" from the source AndroidManifest.xml: /home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/deps/termux-app/terminal-view/src/main/AndroidManifest.xml.
+2025-11-09T05:26:54.7581007Z 
+2025-11-09T05:26:54.7582048Z > Task :terminal-view:generateReleaseRFile
+2025-11-09T05:26:54.7582910Z > Task :react-native-os:writeReleaseAarMetadata
+2025-11-09T05:26:54.7583630Z > Task :termux-shared:generateReleaseRFile
+2025-11-09T05:26:54.7584365Z > Task :react-native-tcp:writeReleaseAarMetadata
+2025-11-09T05:26:54.7585183Z > Task :react-native-randombytes:writeReleaseAarMetadata
+2025-11-09T05:26:54.7585950Z > Task :react-native-fs:writeReleaseAarMetadata
+2025-11-09T05:26:54.7586691Z > Task :terminal-emulator:writeReleaseAarMetadata
+2025-11-09T05:26:54.7587491Z > Task :termux-shared:writeReleaseAarMetadata
+2025-11-09T05:26:54.7588692Z > Task :react-native-async-storage_async-storage:extractDeepLinksRelease
+2025-11-09T05:26:54.7589624Z > Task :react-native-fs:extractDeepLinksRelease
+2025-11-09T05:26:54.8581864Z > Task :react-native-os:extractDeepLinksRelease
+2025-11-09T05:26:54.8586155Z > Task :react-native-randombytes:extractDeepLinksRelease
+2025-11-09T05:26:54.8590806Z > Task :react-native-tcp:extractDeepLinksRelease
+2025-11-09T05:26:54.8592678Z > Task :react-native-udp:extractDeepLinksRelease
+2025-11-09T05:26:54.8594360Z > Task :terminal-emulator:extractDeepLinksRelease
+2025-11-09T05:26:54.8596033Z > Task :terminal-view:extractDeepLinksRelease
+2025-11-09T05:26:54.8600105Z > Task :termux-shared:extractDeepLinksRelease
+2025-11-09T05:26:54.8601025Z > Task :react-native-async-storage_async-storage:generateReleaseBuildConfig
+2025-11-09T05:26:54.8601832Z > Task :terminal-view:writeReleaseAarMetadata
+2025-11-09T05:26:54.8603597Z > Task :react-native-fs:generateReleaseBuildConfig
+2025-11-09T05:26:54.8605398Z > Task :react-native-async-storage_async-storage:javaPreCompileRelease
+2025-11-09T05:26:54.9584055Z > Task :react-native-udp:writeReleaseAarMetadata
+2025-11-09T05:26:54.9623933Z > Task :react-native-os:generateReleaseBuildConfig
+2025-11-09T05:26:54.9625367Z > Task :react-native-os:javaPreCompileRelease
+2025-11-09T05:26:56.7581144Z > Task :react-native-fs:javaPreCompileRelease
+2025-11-09T05:27:01.2580782Z 
+2025-11-09T05:27:01.2588735Z > Task :react-native-async-storage_async-storage:compileReleaseJavaWithJavac
+2025-11-09T05:27:01.2621393Z /home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/node_modules/@react-native-async-storage/async-storage/android/src/main/java/com/reactnativecommunity/asyncstorage/AsyncStorageModule.java:84: warning: [removal] onCatalystInstanceDestroy() in NativeModule has been deprecated and marked for removal
+2025-11-09T05:27:01.2624016Z   public void onCatalystInstanceDestroy() {
+2025-11-09T05:27:01.2624434Z               ^
+2025-11-09T05:27:01.5582768Z Note: Some input files use or override a deprecated API.
+2025-11-09T05:27:01.5584038Z Note: Recompile with -Xlint:deprecation for details.
+2025-11-09T05:27:01.5587175Z Note: /home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/node_modules/@react-native-async-storage/async-storage/android/src/javaPackage/java/com/reactnativecommunity/asyncstorage/AsyncStoragePackage.java uses unchecked or unsafe operations.
+2025-11-09T05:27:01.5590018Z Note: Recompile with -Xlint:unchecked for details.
+2025-11-09T05:27:01.5590830Z 1 warning
+2025-11-09T05:27:05.4590886Z Note: Some input files use or override a deprecated API.
+2025-11-09T05:27:05.4591384Z 
+2025-11-09T05:27:05.4592225Z Note: Recompile with -Xlint:deprecation for details.
+2025-11-09T05:27:05.4595046Z Note: /home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/node_modules/react-native-os/android/src/main/java/com/peel/reactos/RNOS.java uses or overrides a deprecated API.
+2025-11-09T05:27:05.4596751Z Note: Recompile with -Xlint:deprecation for details.
+2025-11-09T05:27:05.4597453Z > Task :react-native-fs:compileReleaseJavaWithJavac
+2025-11-09T05:27:05.4598057Z 
+2025-11-09T05:27:05.4598377Z > Task :react-native-os:compileReleaseJavaWithJavac
+2025-11-09T05:27:05.4598727Z 
+2025-11-09T05:27:05.4599235Z > Task :react-native-async-storage_async-storage:bundleLibCompileToJarRelease
+2025-11-09T05:27:05.4600072Z > Task :react-native-os:bundleLibCompileToJarRelease
+2025-11-09T05:27:05.4600756Z > Task :react-native-fs:bundleLibCompileToJarRelease
+2025-11-09T05:27:05.4601506Z > Task :react-native-randombytes:generateReleaseBuildConfig
+2025-11-09T05:27:05.4602260Z > Task :react-native-tcp:generateReleaseBuildConfig
+2025-11-09T05:27:05.4602981Z > Task :react-native-udp:generateReleaseBuildConfig
+2025-11-09T05:27:05.4603662Z > Task :react-native-randombytes:javaPreCompileRelease
+2025-11-09T05:27:05.4604370Z > Task :react-native-tcp:javaPreCompileRelease
+2025-11-09T05:27:05.4605005Z > Task :react-native-udp:javaPreCompileRelease
+2025-11-09T05:27:05.8585087Z /home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/node_modules/react-native-udp/android/src/main/java/com/tradle/react/UdpSockets.java:51: warning: [removal] onCatalystInstanceDestroy() in NativeModule has been deprecated and marked for removal
+2025-11-09T05:27:05.8587978Z     public void onCatalystInstanceDestroy() {
+2025-11-09T05:27:05.8589094Z                 ^
+2025-11-09T05:27:05.8589688Z 1 warning
+2025-11-09T05:27:05.8628876Z 
+2025-11-09T05:27:05.8629620Z > Task :react-native-udp:compileReleaseJavaWithJavac
+2025-11-09T05:27:05.8630285Z 
+2025-11-09T05:27:05.8630888Z > Task :react-native-udp:bundleLibCompileToJarRelease
+2025-11-09T05:27:06.0580591Z 
+2025-11-09T05:27:06.0584884Z > Task :react-native-tcp:compileReleaseJavaWithJavac
+2025-11-09T05:27:06.0593163Z /home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/node_modules/react-native-tcp/android/src/main/java/com/peel/react/TcpSockets.java:63: warning: [removal] onCatalystInstanceDestroy() in NativeModule has been deprecated and marked for removal
+2025-11-09T05:27:06.0599424Z     public void onCatalystInstanceDestroy() {
+2025-11-09T05:27:06.0599799Z 
+2025-11-09T05:27:06.0602193Z                 ^
+2025-11-09T05:27:06.0602753Z > Task :react-native-tcp:bundleLibCompileToJarRelease
+2025-11-09T05:27:06.0605339Z Note: /home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/node_modules/react-native-tcp/android/src/main/java/com/peel/react/TcpSockets.java uses or overrides a deprecated API.
+2025-11-09T05:27:06.0607107Z > Task :terminal-view:generateReleaseBuildConfig
+2025-11-09T05:27:06.0612715Z Note: Recompile with -Xlint:deprecation for details.
+2025-11-09T05:27:06.0613659Z > Task :terminal-view:javaPreCompileRelease
+2025-11-09T05:27:06.0617840Z 1 warning
+2025-11-09T05:27:06.0618354Z > Task :termux-shared:generateReleaseBuildConfig
+2025-11-09T05:27:06.1582337Z > Task :termux-shared:javaPreCompileRelease
+2025-11-09T05:27:06.1583668Z > Task :react-native-async-storage_async-storage:bundleLibRuntimeToJarRelease
+2025-11-09T05:27:06.1585707Z > Task :react-native-async-storage_async-storage:processReleaseJavaRes NO-SOURCE
+2025-11-09T05:27:06.1586469Z > Task :react-native-async-storage_async-storage:createFullJarRelease
+2025-11-09T05:27:06.1587106Z > Task :react-native-async-storage_async-storage:mergeReleaseJniLibFolders
+2025-11-09T05:27:06.1588075Z > Task :react-native-async-storage_async-storage:mergeReleaseNativeLibs NO-SOURCE
+2025-11-09T05:27:06.1588920Z > Task :react-native-async-storage_async-storage:stripReleaseDebugSymbols NO-SOURCE
+2025-11-09T05:27:06.1589784Z > Task :react-native-async-storage_async-storage:copyReleaseJniLibsProjectAndLocalJars
+2025-11-09T05:27:06.1590925Z > Task :react-native-async-storage_async-storage:extractDeepLinksForAarRelease
+2025-11-09T05:27:06.8582083Z > Task :terminal-emulator:generateReleaseBuildConfig
+2025-11-09T05:27:06.9582541Z > Task :terminal-emulator:javaPreCompileRelease
+2025-11-09T05:27:08.9586450Z Note: /home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/deps/termux-app/terminal-emulator/src/main/java/com/termux/terminal/TerminalSession.java uses or overrides a deprecated API.
+2025-11-09T05:27:08.9588267Z 
+2025-11-09T05:27:08.9588654Z Note: Recompile with -Xlint:deprecation for details.
+2025-11-09T05:27:08.9589370Z > Task :terminal-emulator:compileReleaseJavaWithJavac
+2025-11-09T05:27:09.2582218Z 
+2025-11-09T05:27:09.2586764Z > Task :react-native-randombytes:compileReleaseJavaWithJavac
+2025-11-09T05:27:09.2588138Z > Task :react-native-randombytes:bundleLibCompileToJarRelease
+2025-11-09T05:27:09.2589885Z > Task :terminal-emulator:bundleLibCompileToJarRelease
+2025-11-09T05:27:09.3602258Z > Task :react-native-fs:bundleLibRuntimeToJarRelease
+2025-11-09T05:27:09.3621681Z > Task :react-native-fs:processReleaseJavaRes NO-SOURCE
+2025-11-09T05:27:09.3623218Z > Task :react-native-fs:createFullJarRelease
+2025-11-09T05:27:09.3624169Z > Task :react-native-fs:mergeReleaseJniLibFolders
+2025-11-09T05:27:09.3625905Z > Task :react-native-fs:mergeReleaseNativeLibs NO-SOURCE
+2025-11-09T05:27:09.3626679Z > Task :react-native-fs:stripReleaseDebugSymbols NO-SOURCE
+2025-11-09T05:27:09.3627503Z > Task :react-native-fs:copyReleaseJniLibsProjectAndLocalJars
+2025-11-09T05:27:09.3628467Z > Task :react-native-fs:extractDeepLinksForAarRelease
+2025-11-09T05:27:09.4590101Z > Task :app:dataBindingMergeDependencyArtifactsRelease
+2025-11-09T05:27:09.4591303Z > Task :app:generateReleaseResValues
+2025-11-09T05:27:09.4592014Z > Task :app:generateReleaseResources
+2025-11-09T05:27:09.5584223Z Note: /home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/deps/termux-app/terminal-view/src/main/java/com/termux/view/TerminalView.java uses or overrides a deprecated API.
+2025-11-09T05:27:09.5585766Z 
+2025-11-09T05:27:09.5586109Z > Task :terminal-view:compileReleaseJavaWithJavac
+2025-11-09T05:27:09.5591869Z Note: Recompile with -Xlint:deprecation for details.
+2025-11-09T05:27:09.6581660Z 
+2025-11-09T05:27:09.6582370Z > Task :terminal-view:bundleLibCompileToJarRelease
+2025-11-09T05:27:13.5584092Z > Task :react-native-fs:extractReleaseAnnotations
+2025-11-09T05:27:13.5587407Z > Task :react-native-async-storage_async-storage:extractReleaseAnnotations
+2025-11-09T05:27:13.5589256Z > Task :react-native-async-storage_async-storage:mergeReleaseGeneratedProguardFiles
+2025-11-09T05:27:13.5592274Z > Task :react-native-async-storage_async-storage:mergeReleaseConsumerProguardFiles
+2025-11-09T05:27:13.6581742Z > Task :app:packageReleaseResources
+2025-11-09T05:27:14.1582408Z > Task :react-native-async-storage_async-storage:mergeReleaseShaders
+2025-11-09T05:27:14.1583630Z > Task :app:parseReleaseLocalResources
+2025-11-09T05:27:14.1585186Z > Task :react-native-async-storage_async-storage:compileReleaseShaders NO-SOURCE
+2025-11-09T05:27:14.1586602Z > Task :react-native-async-storage_async-storage:generateReleaseAssets UP-TO-DATE
+2025-11-09T05:27:14.1588945Z > Task :app:generateReleaseBuildConfig
+2025-11-09T05:27:14.4583171Z > Task :react-native-async-storage_async-storage:packageReleaseAssets
+2025-11-09T05:27:14.4584804Z > Task :react-native-async-storage_async-storage:prepareLintJarForPublish
+2025-11-09T05:27:14.4586159Z > Task :react-native-async-storage_async-storage:prepareReleaseArtProfile
+2025-11-09T05:27:14.4587275Z > Task :app:checkReleaseAarMetadata
+2025-11-09T05:27:14.4588334Z > Task :app:mapReleaseSourceSetPaths
+2025-11-09T05:27:14.4589225Z > Task :app:createReleaseCompatibleScreenManifests
+2025-11-09T05:27:14.4590110Z > Task :app:extractDeepLinksRelease
+2025-11-09T05:27:14.6582891Z > Task :react-native-async-storage_async-storage:mergeReleaseJavaResource
+2025-11-09T05:27:14.6584318Z > Task :react-native-async-storage_async-storage:syncReleaseLibJars
+2025-11-09T05:27:14.7584199Z > Task :react-native-async-storage_async-storage:bundleReleaseLocalLintAar
+2025-11-09T05:27:14.7585637Z > Task :react-native-async-storage_async-storage:extractProguardFiles
+2025-11-09T05:27:14.7586812Z > Task :react-native-async-storage_async-storage:writeReleaseLintModelMetadata
+2025-11-09T05:27:15.1581715Z > Task :app:processReleaseMainManifest
+2025-11-09T05:27:15.2609794Z > Task :app:processReleaseManifest
+2025-11-09T05:27:15.2614245Z > Task :app:processReleaseManifestForPackage
+2025-11-09T05:27:15.3582647Z > Task :app:mergeReleaseResources
+2025-11-09T05:27:15.3584746Z > Task :react-native-fs:mergeReleaseGeneratedProguardFiles
+2025-11-09T05:27:15.3585876Z > Task :react-native-fs:mergeReleaseConsumerProguardFiles
+2025-11-09T05:27:15.3588409Z > Task :react-native-fs:mergeReleaseShaders
+2025-11-09T05:27:15.3589297Z > Task :react-native-fs:compileReleaseShaders NO-SOURCE
+2025-11-09T05:27:15.3591961Z > Task :react-native-fs:generateReleaseAssets UP-TO-DATE
+2025-11-09T05:27:15.3592805Z > Task :react-native-fs:packageReleaseAssets
+2025-11-09T05:27:15.3593653Z > Task :react-native-fs:prepareLintJarForPublish
+2025-11-09T05:27:15.3599446Z > Task :react-native-fs:prepareReleaseArtProfile
+2025-11-09T05:27:15.3628508Z > Task :react-native-fs:mergeReleaseJavaResource
+2025-11-09T05:27:15.3629617Z > Task :react-native-fs:syncReleaseLibJars
+2025-11-09T05:27:15.4581718Z > Task :react-native-fs:bundleReleaseLocalLintAar
+2025-11-09T05:27:15.4583119Z > Task :react-native-fs:extractProguardFiles
+2025-11-09T05:27:15.4583894Z > Task :react-native-fs:writeReleaseLintModelMetadata
+2025-11-09T05:27:17.1582043Z 
+2025-11-09T05:27:17.1583080Z > Task :termux-shared:compileReleaseJavaWithJavac
+2025-11-09T05:27:17.1584354Z Note: Some input files use or override a deprecated API.
+2025-11-09T05:27:17.1585116Z Note: Recompile with -Xlint:deprecation for details.
+2025-11-09T05:27:18.7608660Z 
+2025-11-09T05:27:18.7609298Z > Task :termux-shared:bundleLibCompileToJarRelease
+2025-11-09T05:27:18.7610086Z > Task :react-native-os:bundleLibRuntimeToJarRelease
+2025-11-09T05:27:18.7611081Z > Task :react-native-os:processReleaseJavaRes NO-SOURCE
+2025-11-09T05:27:18.7611897Z > Task :react-native-os:createFullJarRelease
+2025-11-09T05:27:18.7612666Z > Task :react-native-os:mergeReleaseJniLibFolders
+2025-11-09T05:27:18.7613506Z > Task :react-native-os:mergeReleaseNativeLibs NO-SOURCE
+2025-11-09T05:27:18.7614415Z > Task :react-native-os:stripReleaseDebugSymbols NO-SOURCE
+2025-11-09T05:27:18.7615385Z > Task :react-native-os:copyReleaseJniLibsProjectAndLocalJars
+2025-11-09T05:27:18.7616338Z > Task :react-native-os:extractDeepLinksForAarRelease
+2025-11-09T05:27:18.7617223Z > Task :react-native-os:extractReleaseAnnotations
+2025-11-09T05:27:18.7618367Z > Task :react-native-os:mergeReleaseGeneratedProguardFiles
+2025-11-09T05:27:18.7619309Z > Task :react-native-os:mergeReleaseConsumerProguardFiles
+2025-11-09T05:27:18.7620109Z > Task :react-native-os:mergeReleaseShaders
+2025-11-09T05:27:18.7621140Z > Task :react-native-os:compileReleaseShaders NO-SOURCE
+2025-11-09T05:27:18.7621962Z > Task :react-native-os:generateReleaseAssets UP-TO-DATE
+2025-11-09T05:27:18.7622700Z > Task :react-native-os:packageReleaseAssets
+2025-11-09T05:27:18.7623428Z > Task :react-native-os:prepareLintJarForPublish
+2025-11-09T05:27:18.7624166Z > Task :react-native-os:prepareReleaseArtProfile
+2025-11-09T05:27:18.7624605Z 
+2025-11-09T05:27:18.7625051Z > Task :app:downloadBootstraps
+2025-11-09T05:27:18.7626323Z Downloading https://github.com/vhqtvn/termux-packages/releases/download/bootstrap-2024.10.05-r1+apt-android-7/bootstrap-aarch64.zip ...
+2025-11-09T05:27:18.7628412Z Downloading https://github.com/vhqtvn/termux-packages/releases/download/bootstrap-2024.10.05-r1+apt-android-7/bootstrap-arm.zip ...
+2025-11-09T05:27:18.7630304Z Downloading https://github.com/vhqtvn/termux-packages/releases/download/bootstrap-2024.10.05-r1+apt-android-7/bootstrap-i686.zip ...
+2025-11-09T05:27:18.8580416Z 
+2025-11-09T05:27:18.8581405Z > Task :react-native-os:mergeReleaseJavaResource
+2025-11-09T05:27:18.8582289Z > Task :react-native-os:syncReleaseLibJars
+2025-11-09T05:27:18.8583067Z > Task :react-native-os:bundleReleaseLocalLintAar
+2025-11-09T05:27:18.8583836Z > Task :react-native-os:extractProguardFiles
+2025-11-09T05:27:18.8584626Z > Task :react-native-os:writeReleaseLintModelMetadata
+2025-11-09T05:27:20.0600661Z > Task :react-native-fs:generateReleaseLintModel
+2025-11-09T05:27:20.0601549Z > Task :react-native-async-storage_async-storage:generateReleaseLintModel
+2025-11-09T05:27:20.0602280Z > Task :react-native-os:generateReleaseLintModel
+2025-11-09T05:27:20.1586063Z > Task :react-native-randombytes:bundleLibRuntimeToJarRelease
+2025-11-09T05:27:20.1587000Z > Task :react-native-udp:bundleLibRuntimeToJarRelease
+2025-11-09T05:27:20.1587960Z > Task :react-native-tcp:bundleLibRuntimeToJarRelease
+2025-11-09T05:27:20.1588734Z > Task :react-native-udp:processReleaseJavaRes NO-SOURCE
+2025-11-09T05:27:20.1589507Z > Task :react-native-tcp:processReleaseJavaRes NO-SOURCE
+2025-11-09T05:27:20.1590364Z > Task :react-native-randombytes:processReleaseJavaRes NO-SOURCE
+2025-11-09T05:27:20.1591066Z > Task :react-native-tcp:createFullJarRelease
+2025-11-09T05:27:20.1591655Z > Task :react-native-udp:createFullJarRelease
+2025-11-09T05:27:20.1592282Z > Task :react-native-randombytes:createFullJarRelease
+2025-11-09T05:27:20.1592974Z > Task :react-native-randombytes:mergeReleaseJniLibFolders
+2025-11-09T05:27:20.1593664Z > Task :react-native-udp:mergeReleaseJniLibFolders
+2025-11-09T05:27:20.1594430Z > Task :react-native-randombytes:mergeReleaseNativeLibs NO-SOURCE
+2025-11-09T05:27:20.1595171Z > Task :react-native-tcp:mergeReleaseJniLibFolders
+2025-11-09T05:27:20.1600624Z > Task :react-native-udp:mergeReleaseNativeLibs NO-SOURCE
+2025-11-09T05:27:20.1616794Z > Task :react-native-randombytes:stripReleaseDebugSymbols NO-SOURCE
+2025-11-09T05:27:20.1618260Z > Task :react-native-udp:stripReleaseDebugSymbols NO-SOURCE
+2025-11-09T05:27:20.1619266Z > Task :react-native-tcp:mergeReleaseNativeLibs NO-SOURCE
+2025-11-09T05:27:20.1620230Z > Task :react-native-tcp:stripReleaseDebugSymbols NO-SOURCE
+2025-11-09T05:27:20.1623040Z > Task :react-native-randombytes:copyReleaseJniLibsProjectAndLocalJars
+2025-11-09T05:27:20.1625937Z > Task :react-native-udp:copyReleaseJniLibsProjectAndLocalJars
+2025-11-09T05:27:20.1628966Z > Task :react-native-randombytes:extractDeepLinksForAarRelease
+2025-11-09T05:27:20.1631705Z > Task :react-native-tcp:copyReleaseJniLibsProjectAndLocalJars
+2025-11-09T05:27:20.2618744Z > Task :react-native-udp:extractDeepLinksForAarRelease
+2025-11-09T05:27:20.2620190Z > Task :react-native-tcp:extractDeepLinksForAarRelease
+2025-11-09T05:27:20.2621292Z > Task :react-native-randombytes:extractReleaseAnnotations
+2025-11-09T05:27:20.2622231Z > Task :react-native-udp:extractReleaseAnnotations
+2025-11-09T05:27:20.2623219Z > Task :react-native-randombytes:mergeReleaseGeneratedProguardFiles
+2025-11-09T05:27:20.2624213Z > Task :react-native-udp:mergeReleaseGeneratedProguardFiles
+2025-11-09T05:27:20.2625565Z > Task :react-native-randombytes:mergeReleaseConsumerProguardFiles
+2025-11-09T05:27:20.2626445Z > Task :react-native-tcp:extractReleaseAnnotations
+2025-11-09T05:27:20.2627350Z > Task :react-native-tcp:mergeReleaseGeneratedProguardFiles
+2025-11-09T05:27:20.2628537Z > Task :react-native-udp:mergeReleaseConsumerProguardFiles
+2025-11-09T05:27:20.2631178Z > Task :react-native-randombytes:mergeReleaseShaders
+2025-11-09T05:27:20.2631948Z > Task :react-native-tcp:mergeReleaseConsumerProguardFiles
+2025-11-09T05:27:20.2632780Z > Task :react-native-randombytes:compileReleaseShaders NO-SOURCE
+2025-11-09T05:27:20.2633523Z > Task :react-native-udp:mergeReleaseShaders
+2025-11-09T05:27:20.2634313Z > Task :react-native-randombytes:generateReleaseAssets UP-TO-DATE
+2025-11-09T05:27:20.2635115Z > Task :react-native-udp:compileReleaseShaders NO-SOURCE
+2025-11-09T05:27:20.2635854Z > Task :react-native-udp:generateReleaseAssets UP-TO-DATE
+2025-11-09T05:27:20.2636528Z > Task :react-native-tcp:mergeReleaseShaders
+2025-11-09T05:27:20.2637237Z > Task :react-native-tcp:compileReleaseShaders NO-SOURCE
+2025-11-09T05:27:20.2638201Z > Task :react-native-tcp:generateReleaseAssets UP-TO-DATE
+2025-11-09T05:27:20.2638886Z > Task :react-native-udp:packageReleaseAssets
+2025-11-09T05:27:20.2639615Z > Task :react-native-randombytes:packageReleaseAssets
+2025-11-09T05:27:20.2640297Z > Task :react-native-udp:prepareLintJarForPublish
+2025-11-09T05:27:20.2641030Z > Task :react-native-randombytes:prepareLintJarForPublish
+2025-11-09T05:27:20.2641729Z > Task :react-native-tcp:packageReleaseAssets
+2025-11-09T05:27:20.2642435Z > Task :react-native-randombytes:prepareReleaseArtProfile
+2025-11-09T05:27:20.2643147Z > Task :react-native-udp:prepareReleaseArtProfile
+2025-11-09T05:27:20.2643827Z > Task :react-native-tcp:prepareLintJarForPublish
+2025-11-09T05:27:20.2644541Z > Task :react-native-randombytes:mergeReleaseJavaResource
+2025-11-09T05:27:20.2645243Z > Task :react-native-udp:mergeReleaseJavaResource
+2025-11-09T05:27:20.2645924Z > Task :react-native-randombytes:extractProguardFiles
+2025-11-09T05:27:20.2646602Z > Task :react-native-tcp:prepareReleaseArtProfile
+2025-11-09T05:27:20.2647249Z > Task :react-native-randombytes:syncReleaseLibJars
+2025-11-09T05:27:20.2648051Z > Task :react-native-udp:syncReleaseLibJars
+2025-11-09T05:27:20.2648686Z > Task :react-native-tcp:mergeReleaseJavaResource
+2025-11-09T05:27:20.2649407Z > Task :react-native-randombytes:bundleReleaseLocalLintAar
+2025-11-09T05:27:20.2650197Z > Task :react-native-udp:bundleReleaseLocalLintAar
+2025-11-09T05:27:20.2650821Z > Task :react-native-tcp:extractProguardFiles
+2025-11-09T05:27:20.2651552Z > Task :react-native-randombytes:writeReleaseLintModelMetadata
+2025-11-09T05:27:20.2652545Z > Task :react-native-tcp:syncReleaseLibJars
+2025-11-09T05:27:20.2653129Z > Task :react-native-udp:extractProguardFiles
+2025-11-09T05:27:20.2653782Z > Task :react-native-udp:writeReleaseLintModelMetadata
+2025-11-09T05:27:20.2654443Z > Task :react-native-tcp:bundleReleaseLocalLintAar
+2025-11-09T05:27:20.2655122Z > Task :react-native-tcp:writeReleaseLintModelMetadata
+2025-11-09T05:27:20.3582214Z > Task :react-native-udp:generateReleaseLintModel
+2025-11-09T05:27:20.3591251Z > Task :react-native-randombytes:generateReleaseLintModel
+2025-11-09T05:27:20.4596018Z > Task :react-native-tcp:generateReleaseLintModel
+2025-11-09T05:27:20.4598351Z > Task :terminal-view:bundleLibRuntimeToJarRelease
+2025-11-09T05:27:20.4600267Z > Task :terminal-emulator:bundleLibRuntimeToJarRelease
+2025-11-09T05:27:20.4602163Z > Task :terminal-view:processReleaseJavaRes NO-SOURCE
+2025-11-09T05:27:20.4604075Z > Task :terminal-emulator:processReleaseJavaRes NO-SOURCE
+2025-11-09T05:27:20.5581925Z > Task :terminal-view:createFullJarRelease
+2025-11-09T05:27:20.5584409Z > Task :terminal-emulator:createFullJarRelease
+2025-11-09T05:27:20.5587293Z > Task :terminal-view:mergeReleaseJniLibFolders
+2025-11-09T05:27:20.5590764Z > Task :terminal-view:mergeReleaseNativeLibs NO-SOURCE
+2025-11-09T05:27:20.5602700Z > Task :terminal-view:stripReleaseDebugSymbols NO-SOURCE
+2025-11-09T05:27:20.5603774Z > Task :termux-shared:bundleLibRuntimeToJarRelease
+2025-11-09T05:27:20.5604538Z > Task :terminal-view:copyReleaseJniLibsProjectAndLocalJars
+2025-11-09T05:27:20.5605285Z > Task :terminal-view:extractDeepLinksForAarRelease
+2025-11-09T05:27:20.5606044Z > Task :termux-shared:processReleaseJavaRes NO-SOURCE
+2025-11-09T05:27:20.5607390Z > Task :terminal-view:extractReleaseAnnotations
+2025-11-09T05:27:20.5609177Z > Task :termux-shared:createFullJarRelease
+2025-11-09T05:27:20.5619566Z > Task :terminal-view:mergeReleaseGeneratedProguardFiles
+2025-11-09T05:27:20.5639104Z > Task :terminal-view:mergeReleaseConsumerProguardFiles
+2025-11-09T05:27:20.5639700Z > Task :terminal-view:mergeReleaseShaders
+2025-11-09T05:27:20.5640224Z > Task :terminal-view:compileReleaseShaders NO-SOURCE
+2025-11-09T05:27:20.5640798Z > Task :terminal-view:generateReleaseAssets UP-TO-DATE
+2025-11-09T05:27:20.5641305Z > Task :terminal-view:packageReleaseAssets
+2025-11-09T05:27:20.5641810Z > Task :terminal-view:prepareLintJarForPublish
+2025-11-09T05:27:20.5642337Z > Task :terminal-view:prepareReleaseArtProfile
+2025-11-09T05:27:20.5644536Z > Task :terminal-view:mergeReleaseJavaResource
+2025-11-09T05:27:20.5645955Z > Task :terminal-view:syncReleaseLibJars
+2025-11-09T05:27:20.5647363Z > Task :terminal-view:bundleReleaseLocalLintAar
+2025-11-09T05:27:20.5652174Z > Task :terminal-view:extractProguardFiles
+2025-11-09T05:27:20.5652775Z > Task :terminal-view:writeReleaseLintModelMetadata
+2025-11-09T05:27:20.6601724Z > Task :react-native-async-storage_async-storage:generateReleaseLintVitalModel
+2025-11-09T05:27:20.7582994Z > Task :terminal-emulator:configureNdkBuildRelease[arm64-v8a]
+2025-11-09T05:27:20.8582111Z > Task :termux-shared:configureNdkBuildRelease[arm64-v8a]
+2025-11-09T05:27:20.8583011Z 
+2025-11-09T05:27:20.8583536Z > Task :app:downloadBootstraps
+2025-11-09T05:27:20.8585142Z Downloading https://github.com/vhqtvn/termux-packages/releases/download/bootstrap-2024.10.05-r1+apt-android-7/bootstrap-x86_64.zip ...
+2025-11-09T05:27:20.8587128Z Downloading https://github.com/vhqtvn/vscode-android-server/releases/download/cs-2024.10.05-r1/cs-aarch64.tgz ...
+2025-11-09T05:27:21.0580477Z 
+2025-11-09T05:27:21.0586467Z > Task :terminal-emulator:buildNdkBuildRelease[arm64-v8a]
+2025-11-09T05:27:21.0588945Z > Task :terminal-emulator:configureNdkBuildRelease[armeabi-v7a]
+2025-11-09T05:27:21.2581956Z > Task :terminal-emulator:buildNdkBuildRelease[armeabi-v7a]
+2025-11-09T05:27:21.3581407Z > Task :terminal-emulator:configureNdkBuildRelease[x86]
+2025-11-09T05:27:21.5583023Z > Task :terminal-emulator:buildNdkBuildRelease[x86]
+2025-11-09T05:27:21.6587505Z > Task :terminal-emulator:configureNdkBuildRelease[x86_64]
+2025-11-09T05:27:21.7601566Z > Task :terminal-emulator:buildNdkBuildRelease[x86_64]
+2025-11-09T05:27:21.8581435Z > Task :terminal-emulator:mergeReleaseJniLibFolders
+2025-11-09T05:27:21.8585830Z > Task :terminal-emulator:mergeReleaseNativeLibs
+2025-11-09T05:27:21.9591374Z > Task :terminal-emulator:stripReleaseDebugSymbols
+2025-11-09T05:27:21.9595571Z > Task :terminal-emulator:copyReleaseJniLibsProjectAndLocalJars
+2025-11-09T05:27:21.9600035Z > Task :terminal-emulator:extractDeepLinksForAarRelease
+2025-11-09T05:27:21.9601727Z > Task :terminal-emulator:extractReleaseAnnotations
+2025-11-09T05:27:21.9602622Z > Task :terminal-emulator:mergeReleaseGeneratedProguardFiles
+2025-11-09T05:27:21.9603429Z > Task :terminal-emulator:mergeReleaseConsumerProguardFiles
+2025-11-09T05:27:21.9604114Z > Task :terminal-emulator:mergeReleaseShaders
+2025-11-09T05:27:21.9604794Z > Task :terminal-emulator:compileReleaseShaders NO-SOURCE
+2025-11-09T05:27:21.9605542Z > Task :terminal-emulator:generateReleaseAssets UP-TO-DATE
+2025-11-09T05:27:21.9606228Z > Task :terminal-emulator:packageReleaseAssets
+2025-11-09T05:27:21.9606899Z > Task :terminal-emulator:prepareLintJarForPublish
+2025-11-09T05:27:21.9607763Z > Task :terminal-emulator:prepareReleaseArtProfile
+2025-11-09T05:27:21.9608415Z > Task :terminal-emulator:mergeReleaseJavaResource
+2025-11-09T05:27:21.9609387Z > Task :terminal-emulator:syncReleaseLibJars
+2025-11-09T05:27:21.9610028Z > Task :terminal-emulator:bundleReleaseLocalLintAar
+2025-11-09T05:27:22.0589392Z > Task :terminal-emulator:extractProguardFiles
+2025-11-09T05:27:22.0590222Z > Task :terminal-emulator:writeReleaseLintModelMetadata
+2025-11-09T05:27:22.0590961Z > Task :termux-shared:buildNdkBuildRelease[arm64-v8a]
+2025-11-09T05:27:22.1582937Z > Task :termux-shared:configureNdkBuildRelease[armeabi-v7a]
+2025-11-09T05:27:22.3701382Z > Task :terminal-emulator:generateReleaseLintModel
+2025-11-09T05:27:22.3702538Z > Task :terminal-view:generateReleaseLintModel
+2025-11-09T05:27:22.4619575Z > Task :react-native-fs:generateReleaseLintVitalModel
+2025-11-09T05:27:22.9582591Z > Task :termux-shared:buildNdkBuildRelease[armeabi-v7a]
+2025-11-09T05:27:22.9583441Z 
+2025-11-09T05:27:22.9583905Z > Task :app:downloadBootstraps
+2025-11-09T05:27:22.9585326Z Downloading https://github.com/vhqtvn/vscode-android-server/releases/download/cs-2024.10.05-r1/cs-arm.tgz ...
+2025-11-09T05:27:23.0580414Z 
+2025-11-09T05:27:23.0585465Z > Task :termux-shared:configureNdkBuildRelease[x86]
+2025-11-09T05:27:24.1599507Z > Task :termux-shared:buildNdkBuildRelease[x86]
+2025-11-09T05:27:24.2588276Z > Task :termux-shared:configureNdkBuildRelease[x86_64]
+2025-11-09T05:27:25.3583301Z > Task :termux-shared:buildNdkBuildRelease[x86_64]
+2025-11-09T05:27:25.3584082Z > Task :termux-shared:mergeReleaseJniLibFolders
+2025-11-09T05:27:25.3586143Z 
+2025-11-09T05:27:25.3588080Z > Task :app:downloadBootstraps
+2025-11-09T05:27:25.3590356Z Downloading https://github.com/vhqtvn/vscode-android-server/releases/download/cs-2024.10.05-r1/cs-x86.tgz ...
+2025-11-09T05:27:25.4581615Z 
+2025-11-09T05:27:25.4585153Z > Task :termux-shared:mergeReleaseNativeLibs
+2025-11-09T05:27:25.5599794Z > Task :termux-shared:stripReleaseDebugSymbols
+2025-11-09T05:27:25.5600647Z > Task :termux-shared:copyReleaseJniLibsProjectAndLocalJars
+2025-11-09T05:27:25.5601426Z > Task :termux-shared:extractDeepLinksForAarRelease
+2025-11-09T05:27:25.5602146Z > Task :termux-shared:extractReleaseAnnotations
+2025-11-09T05:27:25.5602881Z > Task :termux-shared:mergeReleaseGeneratedProguardFiles
+2025-11-09T05:27:25.5603646Z > Task :termux-shared:mergeReleaseConsumerProguardFiles
+2025-11-09T05:27:25.5604306Z > Task :termux-shared:mergeReleaseShaders
+2025-11-09T05:27:25.5604970Z > Task :termux-shared:compileReleaseShaders NO-SOURCE
+2025-11-09T05:27:25.5605709Z > Task :termux-shared:generateReleaseAssets UP-TO-DATE
+2025-11-09T05:27:25.5606374Z > Task :termux-shared:packageReleaseAssets
+2025-11-09T05:27:25.5607004Z > Task :termux-shared:prepareLintJarForPublish
+2025-11-09T05:27:25.5607839Z > Task :termux-shared:prepareReleaseArtProfile
+2025-11-09T05:27:25.6581341Z > Task :termux-shared:mergeReleaseJavaResource
+2025-11-09T05:27:25.6583635Z > Task :termux-shared:syncReleaseLibJars
+2025-11-09T05:27:25.6584375Z > Task :termux-shared:bundleReleaseLocalLintAar
+2025-11-09T05:27:25.7589743Z > Task :termux-shared:extractProguardFiles
+2025-11-09T05:27:25.7591752Z > Task :termux-shared:writeReleaseLintModelMetadata
+2025-11-09T05:27:26.4588407Z > Task :react-native-fs:lintVitalAnalyzeRelease
+2025-11-09T05:27:26.5610161Z > Task :react-native-os:generateReleaseLintVitalModel
+2025-11-09T05:27:27.8582279Z > Task :react-native-os:lintVitalAnalyzeRelease
+2025-11-09T05:27:27.9583418Z > Task :react-native-randombytes:generateReleaseLintVitalModel
+2025-11-09T05:27:28.1609987Z > Task :react-native-async-storage_async-storage:lintVitalAnalyzeRelease
+2025-11-09T05:27:28.2586775Z > Task :termux-shared:generateReleaseLintModel
+2025-11-09T05:27:28.2588641Z > Task :react-native-tcp:generateReleaseLintVitalModel
+2025-11-09T05:27:28.2590457Z > Task :react-native-udp:generateReleaseLintVitalModel
+2025-11-09T05:27:28.3582546Z 
+2025-11-09T05:27:28.3589650Z > Task :app:downloadBootstraps
+2025-11-09T05:27:28.3590832Z Downloading https://github.com/vhqtvn/vscode-android-server/releases/download/cs-2024.10.05-r1/cs-x86_64.tgz ...
+2025-11-09T05:27:28.7591754Z 
+2025-11-09T05:27:28.7593005Z > Task :react-native-randombytes:lintVitalAnalyzeRelease
+2025-11-09T05:27:28.7596454Z > Task :terminal-emulator:generateReleaseLintVitalModel
+2025-11-09T05:27:29.2597187Z > Task :react-native-udp:lintVitalAnalyzeRelease
+2025-11-09T05:27:29.2602188Z > Task :react-native-tcp:lintVitalAnalyzeRelease
+2025-11-09T05:27:29.2606672Z > Task :terminal-view:generateReleaseLintVitalModel
+2025-11-09T05:27:29.3608684Z > Task :termux-shared:generateReleaseLintVitalModel
+2025-11-09T05:27:32.0600467Z > Task :app:dataBindingGenBaseClassesRelease
+2025-11-09T05:27:32.3581520Z > Task :terminal-emulator:lintVitalAnalyzeRelease
+2025-11-09T05:27:32.3608341Z > Task :app:javaPreCompileRelease
+2025-11-09T05:27:32.3609273Z > Task :app:extractProguardFiles
+2025-11-09T05:27:32.8600758Z > Task :app:processReleaseResources
+2025-11-09T05:27:32.8602077Z > Task :react-native-async-storage_async-storage:copyReleaseJniLibsProjectOnly
+2025-11-09T05:27:32.8603261Z > Task :react-native-fs:copyReleaseJniLibsProjectOnly
+2025-11-09T05:27:32.8604316Z > Task :react-native-os:copyReleaseJniLibsProjectOnly
+2025-11-09T05:27:32.8605372Z > Task :react-native-randombytes:copyReleaseJniLibsProjectOnly
+2025-11-09T05:27:32.8606376Z > Task :react-native-tcp:copyReleaseJniLibsProjectOnly
+2025-11-09T05:27:32.8607280Z > Task :react-native-udp:copyReleaseJniLibsProjectOnly
+2025-11-09T05:27:32.8608396Z > Task :terminal-emulator:copyReleaseJniLibsProjectOnly
+2025-11-09T05:27:32.8609293Z > Task :terminal-view:copyReleaseJniLibsProjectOnly
+2025-11-09T05:27:32.9587148Z > Task :termux-shared:copyReleaseJniLibsProjectOnly
+2025-11-09T05:27:32.9591809Z > Task :termux-shared:exportReleaseConsumerProguardFiles
+2025-11-09T05:27:32.9593686Z > Task :terminal-view:exportReleaseConsumerProguardFiles
+2025-11-09T05:27:32.9598452Z > Task :terminal-emulator:exportReleaseConsumerProguardFiles
+2025-11-09T05:27:32.9603093Z > Task :react-native-async-storage_async-storage:exportReleaseConsumerProguardFiles
+2025-11-09T05:27:32.9605355Z > Task :react-native-fs:exportReleaseConsumerProguardFiles
+2025-11-09T05:27:32.9610092Z > Task :react-native-os:exportReleaseConsumerProguardFiles
+2025-11-09T05:27:32.9612444Z > Task :react-native-randombytes:exportReleaseConsumerProguardFiles
+2025-11-09T05:27:32.9614481Z > Task :react-native-tcp:exportReleaseConsumerProguardFiles
+2025-11-09T05:27:32.9616410Z > Task :react-native-udp:exportReleaseConsumerProguardFiles
+2025-11-09T05:27:32.9617508Z > Task :react-native-async-storage_async-storage:bundleReleaseAar
+2025-11-09T05:27:32.9619279Z > Task :react-native-async-storage_async-storage:mapReleaseSourceSetPaths
+2025-11-09T05:27:33.4581737Z > Task :terminal-view:lintVitalAnalyzeRelease
+2025-11-09T05:27:33.4583588Z > Task :react-native-fs:bundleReleaseAar
+2025-11-09T05:27:33.5580948Z > Task :react-native-fs:mapReleaseSourceSetPaths
+2025-11-09T05:27:33.5585438Z > Task :react-native-async-storage_async-storage:mergeReleaseResources
+2025-11-09T05:27:34.2583605Z > Task :react-native-fs:mergeReleaseResources
+2025-11-09T05:27:34.3581146Z 
+2025-11-09T05:27:34.3582161Z > Task :app:configureCMakeRelWithDebInfo[arm64-v8a]
+2025-11-09T05:27:34.3583367Z Checking the license for package CMake 3.22.1 in /usr/local/lib/android/sdk/licenses
+2025-11-09T05:27:34.3584236Z License for package CMake 3.22.1 accepted.
+2025-11-09T05:27:34.3584951Z Preparing "Install CMake 3.22.1 v.3.22.1".
+2025-11-09T05:27:35.4583366Z 
+2025-11-09T05:27:35.4584704Z > Task :react-native-async-storage_async-storage:verifyReleaseResources
+2025-11-09T05:27:35.4585798Z > Task :react-native-async-storage_async-storage:assembleRelease
+2025-11-09T05:27:35.4586760Z > Task :react-native-os:bundleReleaseAar
+2025-11-09T05:27:35.4587499Z > Task :react-native-fs:verifyReleaseResources
+2025-11-09T05:27:35.4588519Z > Task :react-native-fs:assembleRelease
+2025-11-09T05:27:35.4589484Z > Task :react-native-randombytes:bundleReleaseAar
+2025-11-09T05:27:35.4590395Z > Task :react-native-os:mapReleaseSourceSetPaths
+2025-11-09T05:27:35.4591315Z > Task :react-native-randombytes:mapReleaseSourceSetPaths
+2025-11-09T05:27:36.1581042Z 
+2025-11-09T05:27:36.1582621Z > Task :app:configureCMakeRelWithDebInfo[arm64-v8a]
+2025-11-09T05:27:36.1583811Z "Install CMake 3.22.1 v.3.22.1" ready.
+2025-11-09T05:27:36.1584646Z Installing CMake 3.22.1 in /usr/local/lib/android/sdk/cmake/3.22.1
+2025-11-09T05:27:36.1586193Z "Install CMake 3.22.1 v.3.22.1" complete.
+2025-11-09T05:27:36.1586982Z "Install CMake 3.22.1 v.3.22.1" finished.
+2025-11-09T05:27:36.2582686Z 
+2025-11-09T05:27:36.2583363Z > Task :react-native-os:mergeReleaseResources
+2025-11-09T05:27:36.2584097Z > Task :react-native-randombytes:mergeReleaseResources
+2025-11-09T05:27:37.1600531Z > Task :termux-shared:lintVitalAnalyzeRelease
+2025-11-09T05:27:37.1605426Z > Task :react-native-tcp:bundleReleaseAar
+2025-11-09T05:27:37.1608718Z > Task :react-native-tcp:mapReleaseSourceSetPaths
+2025-11-09T05:27:37.4608951Z > Task :react-native-os:verifyReleaseResources
+2025-11-09T05:27:37.4610071Z > Task :react-native-os:assembleRelease
+2025-11-09T05:27:37.4610824Z > Task :react-native-udp:bundleReleaseAar
+2025-11-09T05:27:37.4611584Z > Task :react-native-udp:mapReleaseSourceSetPaths
+2025-11-09T05:27:37.8581088Z > Task :react-native-tcp:mergeReleaseResources
+2025-11-09T05:27:38.0599178Z > Task :react-native-randombytes:verifyReleaseResources
+2025-11-09T05:27:38.0600285Z > Task :react-native-randombytes:assembleRelease
+2025-11-09T05:27:38.0601042Z > Task :terminal-emulator:bundleReleaseAar
+2025-11-09T05:27:38.0601830Z > Task :terminal-emulator:mapReleaseSourceSetPaths
+2025-11-09T05:27:38.0602658Z > Task :terminal-emulator:mergeReleaseResources
+2025-11-09T05:27:38.1581272Z > Task :react-native-udp:mergeReleaseResources
+2025-11-09T05:27:38.7582646Z > Task :terminal-emulator:verifyReleaseResources
+2025-11-09T05:27:38.7598860Z > Task :terminal-emulator:assembleRelease
+2025-11-09T05:27:38.7600023Z > Task :terminal-view:bundleReleaseAar
+2025-11-09T05:27:38.9581585Z > Task :terminal-emulator:compileReleaseLibraryResources
+2025-11-09T05:27:38.9582718Z > Task :terminal-view:mapReleaseSourceSetPaths
+2025-11-09T05:27:39.0581003Z > Task :terminal-view:mergeReleaseResources
+2025-11-09T05:27:39.2581047Z > Task :terminal-view:verifyReleaseResources
+2025-11-09T05:27:39.2585054Z > Task :terminal-view:assembleRelease
+2025-11-09T05:27:39.4581598Z > Task :react-native-tcp:verifyReleaseResources
+2025-11-09T05:27:39.4586441Z > Task :termux-shared:bundleReleaseAar
+2025-11-09T05:27:39.4590615Z > Task :react-native-tcp:assembleRelease
+2025-11-09T05:27:39.5582511Z > Task :react-native-udp:verifyReleaseResources
+2025-11-09T05:27:39.5583799Z > Task :react-native-udp:assembleRelease
+2025-11-09T05:27:39.5585839Z > Task :terminal-view:compileReleaseLibraryResources
+2025-11-09T05:27:39.5587231Z > Task :termux-shared:mapReleaseSourceSetPaths
+2025-11-09T05:27:40.1582308Z > Task :termux-shared:mergeReleaseResources
+2025-11-09T05:27:42.6581358Z > Task :termux-shared:verifyReleaseResources
+2025-11-09T05:27:42.6583339Z > Task :termux-shared:assembleRelease
+2025-11-09T05:27:42.9581416Z > Task :app:buildCMakeRelWithDebInfo[arm64-v8a]
+2025-11-09T05:27:42.9583665Z > Task :app:mergeReleaseJniLibFolders
+2025-11-09T05:27:44.1581065Z > Task :app:mergeReleaseNativeLibs
+2025-11-09T05:27:46.1629096Z > Task :app:checkReleaseDuplicateClasses
+2025-11-09T05:27:46.1629715Z > Task :app:mergeReleaseShaders
+2025-11-09T05:27:46.1630206Z > Task :app:compileReleaseShaders NO-SOURCE
+2025-11-09T05:27:46.1630746Z > Task :app:generateReleaseAssets UP-TO-DATE
+2025-11-09T05:27:46.1631260Z > Task :app:mergeReleaseArtProfile
+2025-11-09T05:27:46.6581328Z > Task :app:stripReleaseDebugSymbols
+2025-11-09T05:27:46.8581149Z > Task :app:mergeReleaseAssets
+2025-11-09T05:27:46.9581736Z > Task :app:processApplicationManifestReleaseForBundle
+2025-11-09T05:27:47.6581479Z > Task :app:extractReleaseNativeSymbolTables
+2025-11-09T05:27:47.8582708Z > Task :app:compressReleaseAssets
+2025-11-09T05:27:48.0630407Z > Task :app:bundleReleaseResources
+2025-11-09T05:27:48.4581344Z > Task :app:collectReleaseDependencies
+2025-11-09T05:27:48.7581608Z > Task :app:sdkReleaseDependencyData
+2025-11-09T05:27:48.7585714Z > Task :app:validateSigningRelease
+2025-11-09T05:27:48.7590315Z > Task :app:writeReleaseAppMetadata
+2025-11-09T05:27:48.7594216Z > Task :app:writeReleaseSigningConfigVersions
+2025-11-09T05:27:54.2590428Z > Task :app:mergeReleaseNativeDebugMetadata
+2025-11-09T05:27:56.2584324Z e: file:///home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/app/src/main/java/vn/vhn/vhscode/preferences/EditorHostPrefs.kt:7:47 Unresolved reference: TermuxPreferenceConstants
+2025-11-09T05:27:56.2585960Z 
+2025-11-09T05:27:56.2591250Z > Task :app:compileReleaseKotlin
+2025-11-09T05:27:56.2596904Z e: file:///home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/app/src/main/java/vn/vhn/vhscode/preferences/EditorHostPrefs.kt:8:46 Unresolved reference: TermuxPropertyConstants
+2025-11-09T05:27:56.2613583Z e: file:///home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/app/src/main/java/vn/vhn/vhscode/preferences/EditorHostPrefs.kt:71:13 Unresolved reference: TermuxPreferenceConstants
+2025-11-09T05:27:56.2618629Z e: file:///home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/app/src/main/java/vn/vhn/vhscode/preferences/EditorHostPrefs.kt:78:17 Unresolved reference: TermuxPreferenceConstants
+2025-11-09T05:27:56.2633500Z e: file:///home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/app/src/main/java/vn/vhn/vhscode/preferences/EditorHostPrefs.kt:105:21 Unresolved reference: TermuxPropertyConstants
+2025-11-09T05:27:56.2636889Z e: file:///home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/app/src/main/java/vn/vhn/vhscode/preferences/EditorHostPrefs.kt:108:17 Unresolved reference: TermuxPropertyConstants
+2025-11-09T05:27:56.2640407Z e: file:///home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/app/src/main/java/vn/vhn/vhscode/preferences/EditorHostPrefs.kt:109:17 Unresolved reference: TermuxPropertyConstants
+2025-11-09T05:27:56.2649217Z e: file:///home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/app/src/main/java/vn/vhn/vhscode/preferences/EditorHostPrefs.kt:114:17 Unresolved reference: TermuxPropertyConstants
+2025-11-09T05:27:56.2652580Z e: file:///home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/app/src/main/java/vn/vhn/vhscode/preferences/EditorHostPrefs.kt:117:21 Unresolved reference: TermuxPropertyConstants
+2025-11-09T05:27:56.2655889Z e: file:///home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/app/src/main/java/vn/vhn/vhscode/preferences/EditorHostPrefs.kt:118:21 Unresolved reference: TermuxPropertyConstants
+2025-11-09T05:27:56.2659361Z e: file:///home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/app/src/main/java/vn/vhn/vhscode/preferences/EditorHostPrefs.kt:173:17 Unresolved reference: TermuxPreferenceConstants
+2025-11-09T05:27:56.2663101Z e: file:///home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/app/src/main/java/vn/vhn/vhscode/preferences/EditorHostPrefs.kt:179:17 Unresolved reference: TermuxPreferenceConstants
+2025-11-09T05:27:56.2666863Z e: file:///home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/app/src/main/java/vn/vhn/vhscode/preferences/EditorHostPrefs.kt:205:17 Unresolved reference: TermuxPreferenceConstants
+2025-11-09T05:27:56.2670380Z e: file:///home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/app/src/main/java/vn/vhn/vhscode/preferences/EditorHostPrefs.kt:212:17 Unresolved reference: TermuxPreferenceConstants
+2025-11-09T05:27:56.2673725Z e: file:///home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/app/src/main/java/vn/vhn/vhscode/preferences/EditorHostPrefs.kt:222:17 Unresolved reference: TermuxPreferenceConstants
+2025-11-09T05:27:56.2677409Z e: file:///home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/app/src/main/java/vn/vhn/vhscode/preferences/EditorHostPrefs.kt:228:17 Unresolved reference: TermuxPreferenceConstants
+2025-11-09T05:27:56.2681274Z e: file:///home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/app/src/main/java/vn/vhn/vhscode/preferences/EditorHostPrefs.kt:238:17 Unresolved reference: TermuxPreferenceConstants
+2025-11-09T05:27:56.2684665Z e: file:///home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/app/src/main/java/vn/vhn/vhscode/preferences/EditorHostPrefs.kt:244:17 Unresolved reference: TermuxPreferenceConstants
+2025-11-09T05:27:56.2688206Z e: file:///home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/app/src/main/java/vn/vhn/vhscode/preferences/EditorHostPrefs.kt:254:17 Unresolved reference: TermuxPreferenceConstants
+2025-11-09T05:27:56.2691636Z e: file:///home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/app/src/main/java/vn/vhn/vhscode/preferences/EditorHostPrefs.kt:260:17 Unresolved reference: TermuxPreferenceConstants
+2025-11-09T05:27:56.2694897Z e: file:///home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/app/src/main/java/vn/vhn/vhscode/root/EditorHostActivity.kt:27:33 Unresolved reference: ExecutionCommand
+2025-11-09T05:27:56.2698219Z e: file:///home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/app/src/main/java/vn/vhn/vhscode/root/EditorHostActivity.kt:398:29 Unresolved reference: ExecutionCommand
+2025-11-09T05:27:56.2701340Z e: file:///home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/app/src/main/java/vn/vhn/vhscode/root/EditorHostAdapter.kt:9:32 Unresolved reference: TermuxSession
+2025-11-09T05:27:56.2705032Z e: file:///home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/app/src/main/java/vn/vhn/vhscode/root/fragments/TerminalFragment.kt:76:52 Type mismatch: inferred type is TermuxTerminalSingleViewClient but TerminalViewClient! was expected
+2025-11-09T05:27:56.2709459Z e: file:///home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/app/src/main/java/vn/vhn/vhscode/root/fragments/TerminalFragment.kt:130:45 Type mismatch: inferred type is TermuxTerminalSingleSessionClient but TerminalSessionClient! was expected
+2025-11-09T05:27:56.2713376Z e: file:///home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/app/src/main/java/vn/vhn/vhscode/root/terminal/TermuxTerminalSingleSessionClient.kt:10:32 Unresolved reference: TermuxSession
+2025-11-09T05:27:56.2716968Z e: file:///home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/app/src/main/java/vn/vhn/vhscode/root/terminal/TermuxTerminalSingleSessionClient.kt:11:26 Unresolved reference: terminal
+2025-11-09T05:27:56.2721088Z e: file:///home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/app/src/main/java/vn/vhn/vhscode/root/terminal/TermuxTerminalSingleSessionClient.kt:19:5 Unresolved reference: TermuxTerminalSessionClientBase
+2025-11-09T05:27:56.2724845Z e: file:///home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/app/src/main/java/vn/vhn/vhscode/root/terminal/TermuxTerminalSingleSessionClient.kt:19:40 Unresolved reference: TermuxSession
+2025-11-09T05:27:56.2728612Z e: file:///home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/app/src/main/java/vn/vhn/vhscode/root/terminal/TermuxTerminalSingleSessionClient.kt:66:5 'onTextChanged' overrides nothing
+2025-11-09T05:27:56.2732507Z e: file:///home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/app/src/main/java/vn/vhn/vhscode/root/terminal/TermuxTerminalSingleSessionClient.kt:71:5 'onTitleChanged' overrides nothing
+2025-11-09T05:27:56.2736126Z e: file:///home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/app/src/main/java/vn/vhn/vhscode/root/terminal/TermuxTerminalSingleSessionClient.kt:75:5 'onSessionFinished' overrides nothing
+2025-11-09T05:27:56.2739917Z e: file:///home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/app/src/main/java/vn/vhn/vhscode/root/terminal/TermuxTerminalSingleSessionClient.kt:79:5 'onCopyTextToClipboard' overrides nothing
+2025-11-09T05:27:56.2744100Z e: file:///home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/app/src/main/java/vn/vhn/vhscode/root/terminal/TermuxTerminalSingleSessionClient.kt:86:5 'onPasteTextFromClipboard' overrides nothing
+2025-11-09T05:27:56.2747866Z e: file:///home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/app/src/main/java/vn/vhn/vhscode/root/terminal/TermuxTerminalSingleSessionClient.kt:97:5 'onBell' overrides nothing
+2025-11-09T05:27:56.2751435Z e: file:///home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/app/src/main/java/vn/vhn/vhscode/root/terminal/TermuxTerminalSingleSessionClient.kt:100:5 'onColorsChanged' overrides nothing
+2025-11-09T05:27:56.3584231Z e: file:///home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/app/src/main/java/vn/vhn/vhscode/root/terminal/TermuxTerminalSingleSessionClient.kt:104:5 'onTerminalCursorStateChange' overrides nothing
+2025-11-09T05:27:56.3597128Z e: file:///home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/app/src/main/java/vn/vhn/vhscode/root/terminal/TermuxTerminalSingleSessionClient.kt:177:5 'onTermuxSessionExited' overrides nothing
+2025-11-09T05:27:56.3598997Z 
+2025-11-09T05:27:56.3603416Z e: file:///home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/app/src/main/java/vn/vhn/vhscode/root/terminal/TermuxTerminalSingleSessionClient.kt:177:55 Unresolved reference: TermuxSession
+2025-11-09T05:27:56.3606993Z e: file:///home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/app/src/main/java/vn/vhn/vhscode/root/terminal/TermuxTerminalSingleViewClient.kt:9:26 Unresolved reference: terminal
+2025-11-09T05:27:56.3618910Z e: file:///home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/app/src/main/java/vn/vhn/vhscode/root/terminal/TermuxTerminalSingleViewClient.kt:10:26 Unresolved reference: terminal
+2025-11-09T05:27:56.3622891Z e: file:///home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/app/src/main/java/vn/vhn/vhscode/root/terminal/TermuxTerminalSingleViewClient.kt:21:5 Unresolved reference: TermuxTerminalViewClientBase
+2025-11-09T05:27:56.3626828Z e: file:///home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/app/src/main/java/vn/vhn/vhscode/root/terminal/TermuxTerminalSingleViewClient.kt:59:5 'onEmulatorSet' overrides nothing
+2025-11-09T05:27:56.3630536Z e: file:///home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/app/src/main/java/vn/vhn/vhscode/root/terminal/TermuxTerminalSingleViewClient.kt:66:5 'onScale' overrides nothing
+2025-11-09T05:27:56.3634523Z e: file:///home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/app/src/main/java/vn/vhn/vhscode/root/terminal/TermuxTerminalSingleViewClient.kt:75:5 'onSingleTapUp' overrides nothing
+2025-11-09T05:27:56.3638542Z e: file:///home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/app/src/main/java/vn/vhn/vhscode/root/terminal/TermuxTerminalSingleViewClient.kt:83:5 'shouldBackButtonBeMappedToEscape' overrides nothing
+2025-11-09T05:27:56.3655866Z e: file:///home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/app/src/main/java/vn/vhn/vhscode/root/terminal/TermuxTerminalSingleViewClient.kt:87:5 'shouldEnforceCharBasedInput' overrides nothing
+2025-11-09T05:27:56.3659925Z e: file:///home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/app/src/main/java/vn/vhn/vhscode/root/terminal/TermuxTerminalSingleViewClient.kt:91:5 'shouldUseCtrlSpaceWorkaround' overrides nothing
+2025-11-09T05:27:56.3663633Z e: file:///home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/app/src/main/java/vn/vhn/vhscode/root/terminal/TermuxTerminalSingleViewClient.kt:95:5 'isTerminalViewSelected' overrides nothing
+2025-11-09T05:27:56.3667418Z e: file:///home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/app/src/main/java/vn/vhn/vhscode/root/terminal/TermuxTerminalSingleViewClient.kt:99:5 'copyModeChanged' overrides nothing
+2025-11-09T05:27:56.3671153Z e: file:///home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/app/src/main/java/vn/vhn/vhscode/root/terminal/TermuxTerminalSingleViewClient.kt:103:5 'onKeyDown' overrides nothing
+2025-11-09T05:27:56.3674581Z e: file:///home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/app/src/main/java/vn/vhn/vhscode/root/terminal/TermuxTerminalSingleViewClient.kt:108:5 'onKeyUp' overrides nothing
+2025-11-09T05:27:56.3678263Z e: file:///home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/app/src/main/java/vn/vhn/vhscode/root/terminal/TermuxTerminalSingleViewClient.kt:128:5 'readControlKey' overrides nothing
+2025-11-09T05:27:56.3681849Z e: file:///home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/app/src/main/java/vn/vhn/vhscode/root/terminal/TermuxTerminalSingleViewClient.kt:129:43 Unresolved reference: SpecialButton
+2025-11-09T05:27:56.3687172Z e: file:///home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/app/src/main/java/vn/vhn/vhscode/root/terminal/TermuxTerminalSingleViewClient.kt:132:5 'readAltKey' overrides nothing
+2025-11-09T05:27:56.3690885Z e: file:///home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/app/src/main/java/vn/vhn/vhscode/root/terminal/TermuxTerminalSingleViewClient.kt:133:43 Unresolved reference: SpecialButton
+2025-11-09T05:27:56.3694521Z e: file:///home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/app/src/main/java/vn/vhn/vhscode/root/terminal/TermuxTerminalSingleViewClient.kt:136:5 'readShiftKey' overrides nothing
+2025-11-09T05:27:56.3698213Z e: file:///home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/app/src/main/java/vn/vhn/vhscode/root/terminal/TermuxTerminalSingleViewClient.kt:137:43 Unresolved reference: SpecialButton
+2025-11-09T05:27:56.3701857Z e: file:///home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/app/src/main/java/vn/vhn/vhscode/root/terminal/TermuxTerminalSingleViewClient.kt:140:5 'readFnKey' overrides nothing
+2025-11-09T05:27:56.3705526Z e: file:///home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/app/src/main/java/vn/vhn/vhscode/root/terminal/TermuxTerminalSingleViewClient.kt:141:43 Unresolved reference: SpecialButton
+2025-11-09T05:27:56.3709700Z e: file:///home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/app/src/main/java/vn/vhn/vhscode/root/terminal/TermuxTerminalSingleViewClient.kt:144:51 Unresolved reference: SpecialButton
+2025-11-09T05:27:56.3713210Z e: file:///home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/app/src/main/java/vn/vhn/vhscode/root/terminal/TermuxTerminalSingleViewClient.kt:148:5 'onLongPress' overrides nothing
+2025-11-09T05:27:56.3716889Z e: file:///home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/app/src/main/java/vn/vhn/vhscode/root/terminal/TermuxTerminalSingleViewClient.kt:152:5 'onCodePoint' overrides nothing
+2025-11-09T05:27:56.3719708Z e: file:///home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/app/src/main/java/vn/vhn/vhscode/root/terminal/VHEditorShellEnvironmentClient.kt:4:32 Unresolved reference: ShellEnvironmentClient
+2025-11-09T05:27:56.3721721Z e: file:///home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/app/src/main/java/vn/vhn/vhscode/root/terminal/VHEditorShellEnvironmentClient.kt:8:40 Unresolved reference: ShellEnvironmentClient
+2025-11-09T05:27:56.3723768Z e: file:///home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/app/src/main/java/vn/vhn/vhscode/root/terminal/VHEditorShellEnvironmentClient.kt:9:5 'getDefaultWorkingDirectoryPath' overrides nothing
+2025-11-09T05:27:56.3725924Z e: file:///home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/app/src/main/java/vn/vhn/vhscode/root/terminal/VHEditorShellEnvironmentClient.kt:13:5 'getDefaultBinPath' overrides nothing
+2025-11-09T05:27:56.3728079Z e: file:///home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/app/src/main/java/vn/vhn/vhscode/root/terminal/VHEditorShellEnvironmentClient.kt:17:5 'buildEnvironment' overrides nothing
+2025-11-09T05:27:56.3730570Z e: file:///home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/app/src/main/java/vn/vhn/vhscode/root/terminal/VHEditorShellEnvironmentClient.kt:25:5 'setupProcessArgs' overrides nothing
+2025-11-09T05:27:56.3733732Z e: file:///home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/app/src/main/java/vn/vhn/vhscode/service_features/SessionsHost.kt:15:35 Unresolved reference: TextInputDialogUtils
+2025-11-09T05:27:56.3736554Z e: file:///home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/app/src/main/java/vn/vhn/vhscode/service_features/SessionsHost.kt:17:33 Unresolved reference: ExecutionCommand
+2025-11-09T05:27:56.3739526Z e: file:///home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/app/src/main/java/vn/vhn/vhscode/service_features/SessionsHost.kt:18:32 Unresolved reference: TermuxSession
+2025-11-09T05:27:56.3742276Z e: file:///home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/app/src/main/java/vn/vhn/vhscode/service_features/SessionsHost.kt:19:26 Unresolved reference: terminal
+2025-11-09T05:27:56.3745041Z e: file:///home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/app/src/main/java/vn/vhn/vhscode/service_features/SessionsHost.kt:33:5 Unresolved reference: TermuxSession
+2025-11-09T05:27:56.3747787Z e: file:///home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/app/src/main/java/vn/vhn/vhscode/service_features/SessionsHost.kt:38:53 Unresolved reference: TermuxSession
+2025-11-09T05:27:56.3750470Z e: file:///home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/app/src/main/java/vn/vhn/vhscode/service_features/SessionsHost.kt:53:38 Unresolved reference: TermuxSession
+2025-11-09T05:27:56.3753504Z e: file:///home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/app/src/main/java/vn/vhn/vhscode/service_features/SessionsHost.kt:57:44 Unresolved reference: TermuxTerminalSessionClientBase
+2025-11-09T05:27:56.3756730Z e: file:///home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/app/src/main/java/vn/vhn/vhscode/service_features/SessionsHost.kt:171:27 Unresolved reference: ExecutionCommand
+2025-11-09T05:27:56.3759306Z e: file:///home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/app/src/main/java/vn/vhn/vhscode/service_features/SessionsHost.kt:174:8 Unresolved reference: TermuxSession
+2025-11-09T05:27:56.3760952Z e: file:///home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/app/src/main/java/vn/vhn/vhscode/service_features/SessionsHost.kt:197:26 Variable expected
+2025-11-09T05:27:56.3762592Z e: file:///home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/app/src/main/java/vn/vhn/vhscode/service_features/SessionsHost.kt:198:32 Unresolved reference: TermuxSession
+2025-11-09T05:27:56.3764471Z e: file:///home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/app/src/main/java/vn/vhn/vhscode/service_features/SessionsHost.kt:271:30 None of the following functions can be called with the arguments supplied: 
+2025-11-09T05:27:56.3765953Z public constructor ArrayList<E : Any!>(p0: (MutableCollection<out TypeVariable(E)!>..Collection<TypeVariable(E)!>?)) defined in java.util.ArrayList
+2025-11-09T05:27:56.3766730Z public constructor ArrayList<E : Any!>(p0: Int) defined in java.util.ArrayList
+2025-11-09T05:27:56.3768399Z e: file:///home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/app/src/main/java/vn/vhn/vhscode/service_features/SessionsHost.kt:274:17 Unresolved reference: killIfExecuting
+2025-11-09T05:27:56.3770154Z e: file:///home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/app/src/main/java/vn/vhn/vhscode/service_features/SessionsHost.kt:276:36 Unresolved reference: executionCommand
+2025-11-09T05:27:56.3772685Z e: file:///home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/app/src/main/java/vn/vhn/vhscode/service_features/SessionsHost.kt:276:70 Unresolved reference: executionCommand
+2025-11-09T05:27:56.3775926Z e: file:///home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/app/src/main/java/vn/vhn/vhscode/service_features/SessionsHost.kt:367:5 'onTermuxSessionExited' overrides nothing
+2025-11-09T05:27:56.3778423Z e: file:///home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/app/src/main/java/vn/vhn/vhscode/service_features/SessionsHost.kt:367:55 Unresolved reference: TermuxSession
+2025-11-09T05:27:56.3781819Z e: file:///home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/app/src/main/java/vn/vhn/vhscode/service_features/SessionsHost.kt:419:25 None of the following functions can be called with the arguments supplied: 
+2025-11-09T05:27:56.3784447Z public constructor ArrayList<E : Any!>(p0: (MutableCollection<out TypeVariable(E)!>..Collection<TypeVariable(E)!>?)) defined in java.util.ArrayList
+2025-11-09T05:27:56.3785858Z public constructor ArrayList<E : Any!>(p0: Int) defined in java.util.ArrayList
+2025-11-09T05:27:56.3788269Z e: file:///home/runner/work/VHEditor-Android-Mobile-Display/VHEditor-Android-Mobile-Display/app/src/main/java/vn/vhn/vhscode/service_features/SessionsHost.kt:505:9 Unresolved reference: TextInputDialogUtils
+2025-11-09T05:27:56.3789128Z 
+2025-11-09T05:27:56.3789413Z FAILURE: Build failed with an exception.
+2025-11-09T05:27:56.3789741Z 
+2025-11-09T05:27:56.3789934Z * What went wrong:
+2025-11-09T05:27:56.3790473Z Execution failed for task ':app:compileReleaseKotlin'.
+2025-11-09T05:27:56.3791976Z > A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+2025-11-09T05:27:56.3793338Z    > Compilation error. See log for more details
+2025-11-09T05:27:56.3793729Z 
+2025-11-09T05:27:56.3793851Z * Try:
+2025-11-09T05:27:56.3794317Z > Run with --stacktrace option to get the stack trace.
+2025-11-09T05:27:56.3795001Z > Run with --info or --debug option to get more log output.
+2025-11-09T05:27:56.3795911Z > Run with --scan to get full insights.
+2025-11-09T05:27:56.3796523Z > Get more help at https://help.gradle.org.
+2025-11-09T05:27:56.3796863Z 
+2025-11-09T05:27:56.3797065Z BUILD FAILED in 4m 14s
+2025-11-09T05:27:56.3797782Z > Task :app:compileReleaseKotlin FAILED
+2025-11-09T05:27:56.3798120Z 
+2025-11-09T05:27:56.3798730Z Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+2025-11-09T05:27:56.3799448Z 
+2025-11-09T05:27:56.3800362Z You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+2025-11-09T05:27:56.3801169Z 
+2025-11-09T05:27:56.3802242Z For more on this, please refer to https://docs.gradle.org/8.6/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+2025-11-09T05:27:56.3803359Z 401 actionable tasks: 401 executed
+2025-11-09T05:27:56.8373873Z ##[error]Process completed with exit code 1.

@@ -1,0 +1,30 @@
+﻿2025-11-09T05:21:52.8850489Z ##[group]Run git clone --depth 1 https://github.com/vhqtvn/termux-app.git deps/termux-app
+2025-11-09T05:21:52.8851155Z [36;1mgit clone --depth 1 https://github.com/vhqtvn/termux-app.git deps/termux-app[0m
+2025-11-09T05:21:52.8851568Z [36;1mls -la deps/termux-app/[0m
+2025-11-09T05:21:52.8887238Z shell: /usr/bin/bash -e {0}
+2025-11-09T05:21:52.8887531Z ##[endgroup]
+2025-11-09T05:21:52.8967212Z Cloning into 'deps/termux-app'...
+2025-11-09T05:21:53.5180767Z total 116
+2025-11-09T05:21:53.5181415Z drwxr-xr-x 12 runner runner  4096 Nov  9 05:21 .
+2025-11-09T05:21:53.5182005Z drwxr-xr-x  3 runner runner  4096 Nov  9 05:21 ..
+2025-11-09T05:21:53.5182614Z -rw-r--r--  1 runner runner   442 Nov  9 05:21 .editorconfig
+2025-11-09T05:21:53.5183267Z drwxr-xr-x  7 runner runner  4096 Nov  9 05:21 .git
+2025-11-09T05:21:53.5183865Z -rw-r--r--  1 runner runner   120 Nov  9 05:21 .gitattributes
+2025-11-09T05:21:53.5184516Z drwxr-xr-x  4 runner runner  4096 Nov  9 05:21 .github
+2025-11-09T05:21:53.5185123Z -rw-r--r--  1 runner runner   455 Nov  9 05:21 .gitignore
+2025-11-09T05:21:53.5185787Z -rw-r--r--  1 runner runner   533 Nov  9 05:21 LICENSE.md
+2025-11-09T05:21:53.5186370Z -rw-r--r--  1 runner runner 24224 Nov  9 05:21 README.md
+2025-11-09T05:21:53.5186929Z drwxr-xr-x  3 runner runner  4096 Nov  9 05:21 app
+2025-11-09T05:21:53.5187489Z drwxr-xr-x  2 runner runner  4096 Nov  9 05:21 art
+2025-11-09T05:21:53.5188332Z -rw-r--r--  1 runner runner   350 Nov  9 05:21 build.gradle
+2025-11-09T05:21:53.5188904Z drwxr-xr-x  3 runner runner  4096 Nov  9 05:21 docs
+2025-11-09T05:21:53.5189551Z drwxr-xr-x  3 runner runner  4096 Nov  9 05:21 fastlane
+2025-11-09T05:21:53.5190137Z drwxr-xr-x  3 runner runner  4096 Nov  9 05:21 gradle
+2025-11-09T05:21:53.5190739Z -rw-r--r--  1 runner runner   884 Nov  9 05:21 gradle.properties
+2025-11-09T05:21:53.5191335Z -rwxr-xr-x  1 runner runner  5766 Nov  9 05:21 gradlew
+2025-11-09T05:21:53.5191906Z -rw-r--r--  1 runner runner  2763 Nov  9 05:21 gradlew.bat
+2025-11-09T05:21:53.5192478Z -rw-r--r--  1 runner runner    43 Nov  9 05:21 jitpack.yml
+2025-11-09T05:21:53.5193085Z -rw-r--r--  1 runner runner    73 Nov  9 05:21 settings.gradle
+2025-11-09T05:21:53.5193743Z drwxr-xr-x  3 runner runner  4096 Nov  9 05:21 terminal-emulator
+2025-11-09T05:21:53.5194386Z drwxr-xr-x  3 runner runner  4096 Nov  9 05:21 terminal-view
+2025-11-09T05:21:53.5195342Z drwxr-xr-x  3 runner runner  4096 Nov  9 05:21 termux-shared

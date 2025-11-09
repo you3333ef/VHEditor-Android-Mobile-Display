@@ -1,0 +1,11 @@
+﻿2025-11-09T05:23:42.0109255Z ##[group]Run echo 'is_prerelease='$(node ./ci/is-prerelease "$(basename refs/tags/v1.0.8)") >> $GITHUB_OUTPUT
+2025-11-09T05:23:42.0109950Z [36;1mecho 'is_prerelease='$(node ./ci/is-prerelease "$(basename refs/tags/v1.0.8)") >> $GITHUB_OUTPUT[0m
+2025-11-09T05:23:42.0110513Z [36;1mecho 'version_name='$(basename refs/tags/v1.0.8 | sed 's/^v//') >> $GITHUB_OUTPUT[0m
+2025-11-09T05:23:42.0143072Z shell: /usr/bin/bash -e {0}
+2025-11-09T05:23:42.0143306Z env:
+2025-11-09T05:23:42.0143543Z   JAVA_HOME_17.0.17_x64: /opt/hostedtoolcache/jdk/17.0.17/x64
+2025-11-09T05:23:42.0143881Z   JAVA_HOME: /opt/hostedtoolcache/jdk/17.0.17/x64
+2025-11-09T05:23:42.0144204Z   JAVA_HOME_17_0_17_X64: /opt/hostedtoolcache/jdk/17.0.17/x64
+2025-11-09T05:23:42.0144511Z   ANDROID_HOME: /usr/local/lib/android/sdk
+2025-11-09T05:23:42.0144788Z   ANDROID_SDK_ROOT: /usr/local/lib/android/sdk
+2025-11-09T05:23:42.0145032Z ##[endgroup]

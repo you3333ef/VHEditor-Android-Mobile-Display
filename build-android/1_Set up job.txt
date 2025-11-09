@@ -1,0 +1,32 @@
+﻿2025-11-09T05:21:48.6872275Z Current runner version: '2.329.0'
+2025-11-09T05:21:48.6895171Z ##[group]Runner Image Provisioner
+2025-11-09T05:21:48.6895996Z Hosted Compute Agent
+2025-11-09T05:21:48.6896640Z Version: 20251016.436
+2025-11-09T05:21:48.6897272Z Commit: 8ab8ac8bfd662a3739dab9fe09456aba92132568
+2025-11-09T05:21:48.6898204Z Build Date: 2025-10-15T20:44:12Z
+2025-11-09T05:21:48.6898900Z ##[endgroup]
+2025-11-09T05:21:48.6899443Z ##[group]Operating System
+2025-11-09T05:21:48.6900025Z Ubuntu
+2025-11-09T05:21:48.6900515Z 24.04.3
+2025-11-09T05:21:48.6901032Z LTS
+2025-11-09T05:21:48.6901464Z ##[endgroup]
+2025-11-09T05:21:48.6902280Z ##[group]Runner Image
+2025-11-09T05:21:48.6902897Z Image: ubuntu-24.04
+2025-11-09T05:21:48.6903394Z Version: 20251102.99.1
+2025-11-09T05:21:48.6904452Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20251102.99/images/ubuntu/Ubuntu2404-Readme.md
+2025-11-09T05:21:48.6905813Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20251102.99
+2025-11-09T05:21:48.6907088Z ##[endgroup]
+2025-11-09T05:21:48.6908292Z ##[group]GITHUB_TOKEN Permissions
+2025-11-09T05:21:48.6910261Z Contents: write
+2025-11-09T05:21:48.6910961Z Metadata: read
+2025-11-09T05:21:48.6911451Z ##[endgroup]
+2025-11-09T05:21:48.6913740Z Secret source: Actions
+2025-11-09T05:21:48.6914680Z Prepare workflow directory
+2025-11-09T05:21:48.7294244Z Prepare all required actions
+2025-11-09T05:21:48.7331898Z Getting action download info
+2025-11-09T05:21:49.1299962Z Download action repository 'actions/checkout@v3' (SHA:f43a0e5ff2bd294095638e18286ca9a3d1956744)
+2025-11-09T05:21:49.2478352Z Download action repository 'actions/setup-java@v1' (SHA:b6e674f4b717d7b0ae3baee0fbe79f498905dfde)
+2025-11-09T05:21:49.7878209Z Download action repository 'android-actions/setup-android@v3' (SHA:9fc6c4e9069bf8d3d10b2204b1fb8f6ef7065407)
+2025-11-09T05:21:50.2903672Z Download action repository 'actions/create-release@v1' (SHA:0cb9c9b65d5d1901c1f53e5e66eaf4afd303e70e)
+2025-11-09T05:21:51.1915733Z Download action repository 'actions/upload-release-asset@v1' (SHA:e8f9f06c4b078e705bd2ea027f0926603fc9b4d5)
+2025-11-09T05:21:51.8391257Z Complete job name: build-android

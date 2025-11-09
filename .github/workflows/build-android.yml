@@ -1,0 +1,121 @@
+name: Build Android APK
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Set up JDK 17
+      uses: actions/setup-java@v4
+      with:
+        java-version: '17'
+        distribution: 'temurin'
+        cache: gradle
+
+    - name: Set up Android SDK
+      uses: android-actions/setup-android@v3
+      with:
+        api-level: 34
+        build-tools: 34.0.0
+        ndk: 25.2.9519653
+
+    - name: Grant execute permission for gradlew
+      run: chmod +x gradlew
+
+    - name: Build with Gradle
+      run: ./gradlew assembleDebug
+
+    - name: Upload APK
+      uses: actions/upload-artifact@v4
+      with:
+        name: app-debug
+        path: app/build/outputs/apk/debug/app-debug.apk
+        retention-days: 30
+
+    - name: Upload AAB
+      uses: actions/upload-artifact@v4
+      with:
+        name: app-release-bundle
+        path: app/build/outputs/bundle/release/app-release.aab
+        retention-days: 30
+
+  release:
+    if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      id-token: write
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Set up JDK 17
+      uses: actions/setup-java@v4
+      with:
+        java-version: '17'
+        distribution: 'temurin'
+        cache: gradle
+
+    - name: Set up Android SDK
+      uses: android-actions/setup-android@v3
+      with:
+        api-level: 34
+        build-tools: 34.0.0
+        ndk: 25.2.9519653
+
+    - name: Grant execute permission for gradlew
+      run: chmod +x gradlew
+
+    - name: Build release APK
+      run: ./gradlew assembleRelease
+
+    - name: Build release AAB
+      run: ./gradlew bundleRelease
+
+    - name: Download APK artifact
+      uses: actions/download-artifact@v4
+      with:
+        name: app-debug
+        path: ./output/
+
+    - name: Create Release
+      uses: softprops/action-gh-release@v1
+      with:
+        files: |
+          output/app-debug.apk
+          app/build/outputs/bundle/release/app-release.aab
+        draft: false
+        prerelease: false
+        generate_release_notes: true
+        name: VHEditor Android Mobile Display - Release
+        body: |
+          ## VHEditor Android Mobile Display
+
+          ### Features:
+          - Mobile display mode support enabled by default
+          - Mobile user agent for optimized VS Code/Code-server UI
+          - Based on VHEditor-Android
+
+          ### What's New:
+          - Added `editorMobileDisplayMode` preference
+          - WebView configured to use mobile user agent string
+
+          ### Downloads:
+          - **APK**: app-debug.apk (for testing)
+          - **AAB**: app-release.aab (for Google Play Store)
+
+          Built with ❤️ using GitHub Actions
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

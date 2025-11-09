@@ -18,7 +18,12 @@ jobs:
 
       - name: "Clone termux-app submodule"
         run: |
+          mkdir -p deps
           git clone --depth 1 https://github.com/vhqtvn/termux-app.git deps/termux-app
+          if [ ! -d "deps/termux-app/termux-shared" ]; then
+            echo "Error: termux-app clone failed or incomplete"
+            exit 1
+          fi
           ls -la deps/termux-app/
 
       - uses: actions/setup-java@v1

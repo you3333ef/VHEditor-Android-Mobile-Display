@@ -53,15 +53,10 @@ jobs:
           echo 'is_prerelease='$(node ./ci/is-prerelease "$(basename ${{ github.ref }})") >> $GITHUB_OUTPUT
           echo 'version_name='$(basename ${{ github.ref }} | sed 's/^v//') >> $GITHUB_OUTPUT
 
-      - name: "Build for Google Play"
+      - name: "Build APK"
         run: |
           [[ -z "${{ steps.build-config.outputs.version_name }}" ]] && exit 13
-          npm run play -- --no-daemon
-
-      - name: "Build for Github release"
-        run: |
-          [[ -z "${{ steps.build-config.outputs.version_name }}" ]] && exit 13
-          USE_SPLITBUILD=1 CI_BUILD=1 CI_VERSION_NAME="${{ steps.build-config.outputs.version_name }}" ./gradlew assembleRelease --no-daemon
+          CI_VERSION_NAME="${{ steps.build-config.outputs.version_name }}" ./gradlew assembleRelease --no-daemon
 
       - name: "Changelog"
         run: |

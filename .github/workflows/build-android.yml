@@ -14,8 +14,13 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
-          fetch-depth: 7
+          fetch-depth: 0
           submodules: recursive
+
+      - name: "Initialize and update submodules"
+        run: |
+          git submodule update --init --recursive --depth 1
+          ls -la deps/termux-app/
 
       - uses: actions/setup-java@v1
         with:

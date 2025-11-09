@@ -1,0 +1,17 @@
+*.iml
+bootstrap*.zip
+cs*.tgz
+.gradle
+/local.properties
+/.idea
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+*.aab
+*.apk
+.history
+**/root_ca.key
+node_modules
+app/src/main/assets/loader.bundled.js

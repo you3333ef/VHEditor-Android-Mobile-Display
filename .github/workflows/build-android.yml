@@ -30,18 +30,11 @@ jobs:
         with:
           java-version: '17'
 
-      - name: "Setup Android SDK"
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y lib32stdc++6 lib32z1
-        env:
-          DEBIAN_FRONTEND: noninteractive
-
-      - name: "Setup Android NDK"
+      - name: "Setup Android SDK and NDK"
         uses: android-actions/setup-android@v3
         with:
           api-level: 34
-          packages: ndk;23.2.8568313
+          ndk-version: 23.2.8568313
 
       - name: "npm install"
         run: |

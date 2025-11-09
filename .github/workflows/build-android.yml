@@ -19,7 +19,30 @@ jobs:
 
       - uses: actions/setup-java@v1
         with:
-          java-version: '21'
+          java-version: '17'
+
+      - name: "Setup Android SDK"
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y lib32stdc++6 lib32z1
+        env:
+          DEBIAN_FRONTEND: noninteractive
+
+      - name: "Download Android NDK"
+        run: |
+          wget -q https://dl.google.com/android/repository/android-ndk-r25c-linux.zip
+          unzip -q android-ndk-r25c-linux.zip
+          echo "ndk.dir=$PWD/android-ndk-r25c" >> local.properties
+        env:
+          ANDROID_HOME: ${{ github.workspace }}
+          ANDROID_SDK_ROOT: ${{ github.workspace }}
+
+      - name: "Setup Environment"
+        run: |
+          echo "ANDROID_HOME=${{ github.workspace }}" >> $GITHUB_ENV
+          echo "ANDROID_SDK_ROOT=${{ github.workspace }}" >> $GITHUB_ENV
+          echo "NDK_HOME=${{ github.workspace }}/android-ndk-r25c" >> $GITHUB_ENV
+          export PATH=$PATH:${{ github.workspace }}/android-ndk-r25c
 
       - name: "npm install"
         run: |
